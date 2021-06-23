@@ -1,0 +1,691 @@
+D:\Accounting\I Count\I Count\bin\Debug\I Count.exe.config
+D:\Accounting\I Count\I Count\bin\Debug\I Count.exe
+D:\Accounting\I Count\I Count\bin\Debug\I Count.pdb
+D:\Accounting\I Count\I Count\obj\Debug\I Count.csprojResolveAssemblyReference.cache
+D:\Accounting\I Count\I Count\obj\Debug\I_Count.Properties.Resources.resources
+D:\Accounting\I Count\I Count\obj\Debug\I Count.csproj.GenerateResource.Cache
+D:\Accounting\I Count\I Count\obj\Debug\I Count.exe
+D:\Accounting\I Count\I Count\obj\Debug\I Count.pdb
+D:\Accounting\I Count\I Count\obj\Debug\I_Count.Login.resources
+D:\Accounting\I Count\I Count\obj\Debug\I_Count.Home.resources
+D:\Accounting\I Count\I Count\obj\Debug\I_Count.Sales.resources
+D:\Accounting\I Count\I Count\obj\Debug\I_Count.Procurement.resources
+D:\Accounting\I Count\I Count\obj\Debug\I_Count.SalesAccounting.resources
+D:\Accounting\I Count\I Count\obj\Debug\I_Count.SalesBills.resources
+D:\Accounting\I Count\I Count\obj\Debug\I_Count.PurchasesAccounting.resources
+D:\Accounting\I Count\I Count\obj\Debug\I_Count.PurchasesBills.resources
+D:\Icount\I Count\I Count\bin\Debug\I Count.exe.config
+D:\Icount\I Count\I Count\obj\Debug\I Count.exe
+D:\Icount\I Count\I Count\obj\Debug\I Count.pdb
+D:\Icount\I Count\I Count\bin\Debug\I Count.exe
+D:\Icount\I Count\I Count\bin\Debug\I Count.pdb
+D:\Icount\I Count\I Count\obj\Debug\I_Count.Home.resources
+D:\Icount\I Count\I Count\obj\Debug\I_Count.Login.resources
+D:\Icount\I Count\I Count\obj\Debug\I_Count.Minimum.resources
+D:\Icount\I Count\I Count\obj\Debug\I_Count.Procurement.resources
+D:\Icount\I Count\I Count\obj\Debug\I_Count.Properties.Resources.resources
+D:\Icount\I Count\I Count\obj\Debug\I_Count.PurchasesAccounting.resources
+D:\Icount\I Count\I Count\obj\Debug\I_Count.PurchasesBills.resources
+D:\Icount\I Count\I Count\obj\Debug\I_Count.Sales.resources
+D:\Icount\I Count\I Count\obj\Debug\I_Count.SalesAccounting.resources
+D:\Icount\I Count\I Count\obj\Debug\I_Count.SalesBills.resources
+D:\Icount\I Count\I Count\obj\Debug\I Count.csproj.GenerateResource.Cache
+D:\Icount\I Count\I Count\bin\Debug\ar\I Count.resources.dll
+D:\Icount\I Count\I Count\obj\Debug\I_Count.Procurement.ar.resources
+D:\Icount\I Count\I Count\obj\Debug\ar\I Count.resources.dll
+D:\Icount\I Count\I Count\bin\Debug\ar-EG\I Count.resources.dll
+D:\Icount\I Count\I Count\obj\Debug\I_Count.Procurement.ar-EG.resources
+D:\Icount\I Count\I Count\obj\Debug\ar-EG\I Count.resources.dll
+D:\Icount\I Count\I Count\obj\Debug\I_Count.Expenses.resources
+D:\Icount\I Count\I Count\obj\Debug\I_Count.Users.resources
+D:\Icount\I Count\I Count\obj\Debug\I_Count.Mortag3.resources
+D:\Icount\I Count\I Count\obj\Debug\I_Count.Reports.resources
+D:\Icount\I Count\I Count\obj\Debug\I_Count.ReportExpenses.resources
+D:\Icount\I Count\I Count\obj\Debug\I_Count.ReportIncome.resources
+D:\Icount\I Count\I Count\obj\Debug\I_Count.BackinBills.resources
+D:\Icount\I Count\I Count\obj\Debug\I_Count.Backoutbills.resources
+D:\Icount\I Count\I Count\obj\Debug\I_Count.Storages.resources
+D:\Icount\I Count\I Count\obj\Debug\I_Count.Corrupted.resources
+D:\Icount\I Count\I Count\obj\Debug\RdlCompile.cache
+D:\Icount\I Count\I Count\obj\Debug\RdlCompile.compiled
+D:\Icount\I Count\I Count\obj\Debug\I_Count.ReportCorreputed.resources
+D:\Icount\I Count\I Count\obj\Debug\I_Count.ConvertingReport.resources
+D:\Icount\I Count\I Count\obj\Debug\I_Count.Products.resources
+D:\Icount\I Count\I Count\obj\Debug\I_Count.Barcode.resources
+D:\Icount\I Count\I Count\obj\Debug\I_Count.Backup.resources
+D:\Icount\I Count\I Count\obj\Debug\I_Count.NoteBook.resources
+D:\Icount\I Count\I Count\obj\Debug\I_Count.Transfer.resources
+D:\Icount\I Count\I Count\obj\Debug\I_Count.ReportTransfer.resources
+D:\Icount\I Count\I Count\obj\Debug\I_Count.EditProducts.resources
+D:\Icount\I Count\I Count\obj\Debug\I_Count.EditCuPr.resources
+D:\Icount\I Count\I Count\obj\Debug\I Count.csprojResolveAssemblyReference.cache
+D:\Icount\I Count\I Count\obj\Debug\I_Count.BackReport.resources
+D:\نسخة القصر\Icount\I Count\I Count\bin\Debug\I Count.exe.config
+D:\نسخة القصر\Icount\I Count\I Count\obj\Debug\I Count.exe
+D:\نسخة القصر\Icount\I Count\I Count\obj\Debug\I Count.pdb
+D:\نسخة القصر\Icount\I Count\I Count\bin\Debug\I Count.exe
+D:\نسخة القصر\Icount\I Count\I Count\bin\Debug\I Count.pdb
+D:\نسخة القصر\Icount\I Count\I Count\bin\Debug\ar-EG\I Count.resources.dll
+D:\نسخة القصر\Icount\I Count\I Count\bin\Debug\ar\I Count.resources.dll
+D:\نسخة القصر\Icount\I Count\I Count\obj\Debug\I_Count.BackinBills.resources
+D:\نسخة القصر\Icount\I Count\I Count\obj\Debug\I_Count.Backoutbills.resources
+D:\نسخة القصر\Icount\I Count\I Count\obj\Debug\I_Count.BackReport.resources
+D:\نسخة القصر\Icount\I Count\I Count\obj\Debug\I_Count.Backup.resources
+D:\نسخة القصر\Icount\I Count\I Count\obj\Debug\I_Count.Barcode.resources
+D:\نسخة القصر\Icount\I Count\I Count\obj\Debug\I_Count.ConvertingReport.resources
+D:\نسخة القصر\Icount\I Count\I Count\obj\Debug\I_Count.Corrupted.resources
+D:\نسخة القصر\Icount\I Count\I Count\obj\Debug\I_Count.EditCuPr.resources
+D:\نسخة القصر\Icount\I Count\I Count\obj\Debug\I_Count.EditProducts.resources
+D:\نسخة القصر\Icount\I Count\I Count\obj\Debug\I_Count.Expenses.resources
+D:\نسخة القصر\Icount\I Count\I Count\obj\Debug\I_Count.Home.resources
+D:\نسخة القصر\Icount\I Count\I Count\obj\Debug\I_Count.Login.resources
+D:\نسخة القصر\Icount\I Count\I Count\obj\Debug\I_Count.Minimum.resources
+D:\نسخة القصر\Icount\I Count\I Count\obj\Debug\I_Count.Mortag3.resources
+D:\نسخة القصر\Icount\I Count\I Count\obj\Debug\I_Count.NoteBook.resources
+D:\نسخة القصر\Icount\I Count\I Count\obj\Debug\I_Count.Procurement.resources
+D:\نسخة القصر\Icount\I Count\I Count\obj\Debug\I_Count.Products.resources
+D:\نسخة القصر\Icount\I Count\I Count\obj\Debug\I_Count.Properties.Resources.resources
+D:\نسخة القصر\Icount\I Count\I Count\obj\Debug\I_Count.PurchasesAccounting.resources
+D:\نسخة القصر\Icount\I Count\I Count\obj\Debug\I_Count.PurchasesBills.resources
+D:\نسخة القصر\Icount\I Count\I Count\obj\Debug\I_Count.ReportCorreputed.resources
+D:\نسخة القصر\Icount\I Count\I Count\obj\Debug\I_Count.ReportExpenses.resources
+D:\نسخة القصر\Icount\I Count\I Count\obj\Debug\I_Count.ReportIncome.resources
+D:\نسخة القصر\Icount\I Count\I Count\obj\Debug\I_Count.Reports.resources
+D:\نسخة القصر\Icount\I Count\I Count\obj\Debug\I_Count.ReportTransfer.resources
+D:\نسخة القصر\Icount\I Count\I Count\obj\Debug\I_Count.Sales.resources
+D:\نسخة القصر\Icount\I Count\I Count\obj\Debug\I_Count.SalesAccounting.resources
+D:\نسخة القصر\Icount\I Count\I Count\obj\Debug\I_Count.SalesBills.resources
+D:\نسخة القصر\Icount\I Count\I Count\obj\Debug\I_Count.Storages.resources
+D:\نسخة القصر\Icount\I Count\I Count\obj\Debug\I_Count.Transfer.resources
+D:\نسخة القصر\Icount\I Count\I Count\obj\Debug\I_Count.Users.resources
+D:\نسخة القصر\Icount\I Count\I Count\obj\Debug\I_Count.Procurement.ar-EG.resources
+D:\نسخة القصر\Icount\I Count\I Count\obj\Debug\I_Count.Procurement.ar.resources
+D:\نسخة القصر\Icount\I Count\I Count\obj\Debug\I Count.csproj.GenerateResource.Cache
+D:\نسخة القصر\Icount\I Count\I Count\obj\Debug\RdlCompile.cache
+D:\نسخة القصر\Icount\I Count\I Count\obj\Debug\RdlCompile.compiled
+D:\نسخة القصر\Icount\I Count\I Count\obj\Debug\ar-EG\I Count.resources.dll
+D:\نسخة القصر\Icount\I Count\I Count\obj\Debug\ar\I Count.resources.dll
+D:\نسخة القصر\test\I Count\I Count\bin\Debug\I Count.exe.config
+D:\نسخة القصر\test\I Count\I Count\obj\Debug\I Count.exe
+D:\نسخة القصر\test\I Count\I Count\obj\Debug\I Count.pdb
+D:\نسخة القصر\test\I Count\I Count\obj\Debug\I_Count.BackinBills.resources
+D:\نسخة القصر\test\I Count\I Count\obj\Debug\I_Count.Backoutbills.resources
+D:\نسخة القصر\test\I Count\I Count\obj\Debug\I_Count.BackReport.resources
+D:\نسخة القصر\test\I Count\I Count\obj\Debug\I_Count.Backup.resources
+D:\نسخة القصر\test\I Count\I Count\obj\Debug\I_Count.Barcode.resources
+D:\نسخة القصر\test\I Count\I Count\obj\Debug\I_Count.ConvertingReport.resources
+D:\نسخة القصر\test\I Count\I Count\obj\Debug\I_Count.Corrupted.resources
+D:\نسخة القصر\test\I Count\I Count\obj\Debug\I_Count.EditCuPr.resources
+D:\نسخة القصر\test\I Count\I Count\obj\Debug\I_Count.EditProducts.resources
+D:\نسخة القصر\test\I Count\I Count\obj\Debug\I_Count.Expenses.resources
+D:\نسخة القصر\test\I Count\I Count\obj\Debug\I_Count.Home.resources
+D:\نسخة القصر\test\I Count\I Count\obj\Debug\I_Count.Login.resources
+D:\نسخة القصر\test\I Count\I Count\obj\Debug\I_Count.Minimum.resources
+D:\نسخة القصر\test\I Count\I Count\obj\Debug\I_Count.Mortag3.resources
+D:\نسخة القصر\test\I Count\I Count\obj\Debug\I_Count.NoteBook.resources
+D:\نسخة القصر\test\I Count\I Count\obj\Debug\I_Count.Procurement.resources
+D:\نسخة القصر\test\I Count\I Count\obj\Debug\I_Count.Products.resources
+D:\نسخة القصر\test\I Count\I Count\obj\Debug\I_Count.Properties.Resources.resources
+D:\نسخة القصر\test\I Count\I Count\obj\Debug\I_Count.PurchasesAccounting.resources
+D:\نسخة القصر\test\I Count\I Count\obj\Debug\I_Count.PurchasesBills.resources
+D:\نسخة القصر\test\I Count\I Count\obj\Debug\I_Count.ReportCorreputed.resources
+D:\نسخة القصر\test\I Count\I Count\obj\Debug\I_Count.ReportExpenses.resources
+D:\نسخة القصر\test\I Count\I Count\obj\Debug\I_Count.ReportIncome.resources
+D:\نسخة القصر\test\I Count\I Count\obj\Debug\I_Count.Reports.resources
+D:\نسخة القصر\test\I Count\I Count\obj\Debug\I_Count.ReportTransfer.resources
+D:\نسخة القصر\test\I Count\I Count\obj\Debug\I_Count.Sales.resources
+D:\نسخة القصر\test\I Count\I Count\obj\Debug\I_Count.SalesAccounting.resources
+D:\نسخة القصر\test\I Count\I Count\obj\Debug\I_Count.SalesBills.resources
+D:\نسخة القصر\test\I Count\I Count\obj\Debug\I_Count.Storages.resources
+D:\نسخة القصر\test\I Count\I Count\obj\Debug\I_Count.Transfer.resources
+D:\نسخة القصر\test\I Count\I Count\obj\Debug\I_Count.Users.resources
+D:\نسخة القصر\test\I Count\I Count\obj\Debug\I_Count.Procurement.ar-EG.resources
+D:\نسخة القصر\test\I Count\I Count\obj\Debug\I_Count.Procurement.ar.resources
+D:\نسخة القصر\test\I Count\I Count\obj\Debug\I Count.csproj.GenerateResource.Cache
+D:\نسخة القصر\test\I Count\I Count\obj\Debug\RdlCompile.cache
+D:\نسخة القصر\test\I Count\I Count\obj\Debug\RdlCompile.compiled
+D:\نسخة القصر\test\I Count\I Count\bin\Debug\I Count.exe
+D:\نسخة القصر\test\I Count\I Count\bin\Debug\I Count.pdb
+D:\نسخة القصر\test\I Count\I Count\bin\Debug\ar-EG\I Count.resources.dll
+D:\نسخة القصر\test\I Count\I Count\bin\Debug\ar\I Count.resources.dll
+D:\نسخة القصر\test\I Count\I Count\obj\Debug\ar-EG\I Count.resources.dll
+D:\نسخة القصر\test\I Count\I Count\obj\Debug\ar\I Count.resources.dll
+E:\ICount Customers\Elmostafa\I Count\I Count\bin\Debug\I Count.exe.config
+E:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\I Count.exe
+E:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\I Count.pdb
+E:\ICount Customers\Elmostafa\I Count\I Count\bin\Debug\I Count.exe
+E:\ICount Customers\Elmostafa\I Count\I Count\bin\Debug\I Count.pdb
+E:\ICount Customers\Elmostafa\I Count\I Count\bin\Debug\ar-EG\I Count.resources.dll
+E:\ICount Customers\Elmostafa\I Count\I Count\bin\Debug\ar\I Count.resources.dll
+E:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\I_Count.BackinBills.resources
+E:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\I_Count.Backoutbills.resources
+E:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\I_Count.BackReport.resources
+E:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\I_Count.Backup.resources
+E:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\I_Count.Barcode.resources
+E:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\I_Count.ConvertingReport.resources
+E:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\I_Count.Corrupted.resources
+E:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\I_Count.EditCuPr.resources
+E:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\I_Count.EditProducts.resources
+E:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\I_Count.Expenses.resources
+E:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\I_Count.Home.resources
+E:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\I_Count.Login.resources
+E:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\I_Count.Minimum.resources
+E:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\I_Count.Mortag3.resources
+E:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\I_Count.NoteBook.resources
+E:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\I_Count.Procurement.resources
+E:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\I_Count.Products.resources
+E:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\I_Count.Properties.Resources.resources
+E:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\I_Count.PurchasesAccounting.resources
+E:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\I_Count.PurchasesBills.resources
+E:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\I_Count.ReportCorreputed.resources
+E:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\I_Count.ReportExpenses.resources
+E:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\I_Count.ReportIncome.resources
+E:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\I_Count.Reports.resources
+E:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\I_Count.ReportTransfer.resources
+E:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\I_Count.Sales.resources
+E:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\I_Count.SalesAccounting.resources
+E:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\I_Count.SalesBills.resources
+E:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\I_Count.Storages.resources
+E:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\I_Count.Transfer.resources
+E:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\I_Count.Users.resources
+E:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\I_Count.Procurement.ar-EG.resources
+E:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\I_Count.Procurement.ar.resources
+E:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\I Count.csproj.GenerateResource.Cache
+E:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\RdlCompile.cache
+E:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\RdlCompile.compiled
+E:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\ar-EG\I Count.resources.dll
+E:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\ar\I Count.resources.dll
+E:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\I_Count.ReportStore.resources
+E:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\I_Count.LateCuReport.resources
+E:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\I_Count.LateProReport.resources
+F:\ICount Customers\Elmostafa\I Count\I Count\bin\Debug\I Count.exe.config
+F:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\I Count.exe
+F:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\I Count.pdb
+F:\ICount Customers\Elmostafa\I Count\I Count\bin\Debug\I Count.exe
+F:\ICount Customers\Elmostafa\I Count\I Count\bin\Debug\I Count.pdb
+F:\ICount Customers\Elmostafa\I Count\I Count\bin\Debug\ar-EG\I Count.resources.dll
+F:\ICount Customers\Elmostafa\I Count\I Count\bin\Debug\ar\I Count.resources.dll
+F:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\I_Count.BackinBills.resources
+F:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\I_Count.Backoutbills.resources
+F:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\I_Count.BackReport.resources
+F:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\I_Count.Backup.resources
+F:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\I_Count.Barcode.resources
+F:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\I_Count.ConvertingReport.resources
+F:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\I_Count.Corrupted.resources
+F:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\I_Count.EditCuPr.resources
+F:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\I_Count.EditProducts.resources
+F:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\I_Count.Expenses.resources
+F:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\I_Count.Home.resources
+F:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\I_Count.LateCuReport.resources
+F:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\I_Count.LateProReport.resources
+F:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\I_Count.Login.resources
+F:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\I_Count.Minimum.resources
+F:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\I_Count.Mortag3.resources
+F:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\I_Count.NoteBook.resources
+F:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\I_Count.Procurement.resources
+F:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\I_Count.Products.resources
+F:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\I_Count.Properties.Resources.resources
+F:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\I_Count.PurchasesAccounting.resources
+F:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\I_Count.PurchasesBills.resources
+F:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\I_Count.ReportCorreputed.resources
+F:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\I_Count.ReportExpenses.resources
+F:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\I_Count.ReportIncome.resources
+F:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\I_Count.Reports.resources
+F:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\I_Count.ReportStore.resources
+F:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\I_Count.ReportTransfer.resources
+F:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\I_Count.Sales.resources
+F:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\I_Count.SalesAccounting.resources
+F:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\I_Count.SalesBills.resources
+F:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\I_Count.Storages.resources
+F:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\I_Count.Transfer.resources
+F:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\I_Count.Users.resources
+F:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\I_Count.Procurement.ar-EG.resources
+F:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\I_Count.Procurement.ar.resources
+F:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\I Count.csproj.GenerateResource.Cache
+F:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\RdlCompile.cache
+F:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\RdlCompile.compiled
+F:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\ar-EG\I Count.resources.dll
+F:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\ar\I Count.resources.dll
+F:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\I_Count.BillsEdit.resources
+F:\ICount Customers\Elmostafa\I Count\I Count\bin\Debug\EntityFramework.dll
+F:\ICount Customers\Elmostafa\I Count\I Count\bin\Debug\EntityFramework.xml
+F:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\I_Count.EditBills.Seals.resources
+F:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\I_Count.EditBills.Buying.resources
+F:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\I_Count.EditBills.BackIn.resources
+F:\ICount Customers\Elmostafa\I Count\I Count\obj\Debug\I Count.csprojResolveAssemblyReference.cache
+F:\ICount Customers\Ajame\I Count\I Count\bin\Debug\I Count.exe.config
+F:\ICount Customers\Ajame\I Count\I Count\obj\Debug\I Count.exe
+F:\ICount Customers\Ajame\I Count\I Count\obj\Debug\I Count.pdb
+F:\ICount Customers\Ajame\I Count\I Count\bin\Debug\I Count.exe
+F:\ICount Customers\Ajame\I Count\I Count\bin\Debug\I Count.pdb
+F:\ICount Customers\Ajame\I Count\I Count\bin\Debug\ar-EG\I Count.resources.dll
+F:\ICount Customers\Ajame\I Count\I Count\bin\Debug\ar\I Count.resources.dll
+F:\ICount Customers\Ajame\I Count\I Count\bin\Debug\EntityFramework.dll
+F:\ICount Customers\Ajame\I Count\I Count\bin\Debug\EntityFramework.xml
+F:\ICount Customers\Ajame\I Count\I Count\obj\Debug\I_Count.BackinBills.resources
+F:\ICount Customers\Ajame\I Count\I Count\obj\Debug\I_Count.Backoutbills.resources
+F:\ICount Customers\Ajame\I Count\I Count\obj\Debug\I_Count.BackReport.resources
+F:\ICount Customers\Ajame\I Count\I Count\obj\Debug\I_Count.Backup.resources
+F:\ICount Customers\Ajame\I Count\I Count\obj\Debug\I_Count.Barcode.resources
+F:\ICount Customers\Ajame\I Count\I Count\obj\Debug\I_Count.BillsEdit.resources
+F:\ICount Customers\Ajame\I Count\I Count\obj\Debug\I_Count.ConvertingReport.resources
+F:\ICount Customers\Ajame\I Count\I Count\obj\Debug\I_Count.Corrupted.resources
+F:\ICount Customers\Ajame\I Count\I Count\obj\Debug\I_Count.EditBills.BackIn.resources
+F:\ICount Customers\Ajame\I Count\I Count\obj\Debug\I_Count.EditBills.Buying.resources
+F:\ICount Customers\Ajame\I Count\I Count\obj\Debug\I_Count.EditBills.Seals.resources
+F:\ICount Customers\Ajame\I Count\I Count\obj\Debug\I_Count.EditCuPr.resources
+F:\ICount Customers\Ajame\I Count\I Count\obj\Debug\I_Count.EditProducts.resources
+F:\ICount Customers\Ajame\I Count\I Count\obj\Debug\I_Count.Expenses.resources
+F:\ICount Customers\Ajame\I Count\I Count\obj\Debug\I_Count.Home.resources
+F:\ICount Customers\Ajame\I Count\I Count\obj\Debug\I_Count.LateCuReport.resources
+F:\ICount Customers\Ajame\I Count\I Count\obj\Debug\I_Count.LateProReport.resources
+F:\ICount Customers\Ajame\I Count\I Count\obj\Debug\I_Count.Login.resources
+F:\ICount Customers\Ajame\I Count\I Count\obj\Debug\I_Count.Minimum.resources
+F:\ICount Customers\Ajame\I Count\I Count\obj\Debug\I_Count.Mortag3.resources
+F:\ICount Customers\Ajame\I Count\I Count\obj\Debug\I_Count.NoteBook.resources
+F:\ICount Customers\Ajame\I Count\I Count\obj\Debug\I_Count.Procurement.resources
+F:\ICount Customers\Ajame\I Count\I Count\obj\Debug\I_Count.Products.resources
+F:\ICount Customers\Ajame\I Count\I Count\obj\Debug\I_Count.Properties.Resources.resources
+F:\ICount Customers\Ajame\I Count\I Count\obj\Debug\I_Count.PurchasesAccounting.resources
+F:\ICount Customers\Ajame\I Count\I Count\obj\Debug\I_Count.PurchasesBills.resources
+F:\ICount Customers\Ajame\I Count\I Count\obj\Debug\I_Count.ReportCorreputed.resources
+F:\ICount Customers\Ajame\I Count\I Count\obj\Debug\I_Count.ReportExpenses.resources
+F:\ICount Customers\Ajame\I Count\I Count\obj\Debug\I_Count.ReportIncome.resources
+F:\ICount Customers\Ajame\I Count\I Count\obj\Debug\I_Count.Reports.resources
+F:\ICount Customers\Ajame\I Count\I Count\obj\Debug\I_Count.ReportStore.resources
+F:\ICount Customers\Ajame\I Count\I Count\obj\Debug\I_Count.ReportTransfer.resources
+F:\ICount Customers\Ajame\I Count\I Count\obj\Debug\I_Count.Sales.resources
+F:\ICount Customers\Ajame\I Count\I Count\obj\Debug\I_Count.SalesAccounting.resources
+F:\ICount Customers\Ajame\I Count\I Count\obj\Debug\I_Count.SalesBills.resources
+F:\ICount Customers\Ajame\I Count\I Count\obj\Debug\I_Count.Storages.resources
+F:\ICount Customers\Ajame\I Count\I Count\obj\Debug\I_Count.Transfer.resources
+F:\ICount Customers\Ajame\I Count\I Count\obj\Debug\I_Count.Users.resources
+F:\ICount Customers\Ajame\I Count\I Count\obj\Debug\I_Count.Procurement.ar-EG.resources
+F:\ICount Customers\Ajame\I Count\I Count\obj\Debug\I_Count.Procurement.ar.resources
+F:\ICount Customers\Ajame\I Count\I Count\obj\Debug\I Count.csproj.GenerateResource.Cache
+F:\ICount Customers\Ajame\I Count\I Count\obj\Debug\RdlCompile.cache
+F:\ICount Customers\Ajame\I Count\I Count\obj\Debug\RdlCompile.compiled
+F:\ICount Customers\Ajame\I Count\I Count\obj\Debug\ar-EG\I Count.resources.dll
+F:\ICount Customers\Ajame\I Count\I Count\obj\Debug\ar\I Count.resources.dll
+F:\ICount Customers\Moharm Bik\I Count\I Count\bin\Debug\I Count.exe.config
+F:\ICount Customers\Moharm Bik\I Count\I Count\obj\Debug\I Count.exe
+F:\ICount Customers\Moharm Bik\I Count\I Count\obj\Debug\I Count.pdb
+F:\ICount Customers\Moharm Bik\I Count\I Count\bin\Debug\I Count.exe
+F:\ICount Customers\Moharm Bik\I Count\I Count\bin\Debug\I Count.pdb
+F:\ICount Customers\Moharm Bik\I Count\I Count\bin\Debug\ar-EG\I Count.resources.dll
+F:\ICount Customers\Moharm Bik\I Count\I Count\bin\Debug\ar\I Count.resources.dll
+F:\ICount Customers\Moharm Bik\I Count\I Count\bin\Debug\EntityFramework.dll
+F:\ICount Customers\Moharm Bik\I Count\I Count\bin\Debug\EntityFramework.xml
+F:\ICount Customers\Moharm Bik\I Count\I Count\obj\Debug\I_Count.BackinBills.resources
+F:\ICount Customers\Moharm Bik\I Count\I Count\obj\Debug\I_Count.Backoutbills.resources
+F:\ICount Customers\Moharm Bik\I Count\I Count\obj\Debug\I_Count.BackReport.resources
+F:\ICount Customers\Moharm Bik\I Count\I Count\obj\Debug\I_Count.Backup.resources
+F:\ICount Customers\Moharm Bik\I Count\I Count\obj\Debug\I_Count.Barcode.resources
+F:\ICount Customers\Moharm Bik\I Count\I Count\obj\Debug\I_Count.BillsEdit.resources
+F:\ICount Customers\Moharm Bik\I Count\I Count\obj\Debug\I_Count.ConvertingReport.resources
+F:\ICount Customers\Moharm Bik\I Count\I Count\obj\Debug\I_Count.Corrupted.resources
+F:\ICount Customers\Moharm Bik\I Count\I Count\obj\Debug\I_Count.EditBills.BackIn.resources
+F:\ICount Customers\Moharm Bik\I Count\I Count\obj\Debug\I_Count.EditBills.Buying.resources
+F:\ICount Customers\Moharm Bik\I Count\I Count\obj\Debug\I_Count.EditBills.Seals.resources
+F:\ICount Customers\Moharm Bik\I Count\I Count\obj\Debug\I_Count.EditCuPr.resources
+F:\ICount Customers\Moharm Bik\I Count\I Count\obj\Debug\I_Count.EditProducts.resources
+F:\ICount Customers\Moharm Bik\I Count\I Count\obj\Debug\I_Count.Expenses.resources
+F:\ICount Customers\Moharm Bik\I Count\I Count\obj\Debug\I_Count.Home.resources
+F:\ICount Customers\Moharm Bik\I Count\I Count\obj\Debug\I_Count.LateCuReport.resources
+F:\ICount Customers\Moharm Bik\I Count\I Count\obj\Debug\I_Count.LateProReport.resources
+F:\ICount Customers\Moharm Bik\I Count\I Count\obj\Debug\I_Count.Login.resources
+F:\ICount Customers\Moharm Bik\I Count\I Count\obj\Debug\I_Count.Minimum.resources
+F:\ICount Customers\Moharm Bik\I Count\I Count\obj\Debug\I_Count.Mortag3.resources
+F:\ICount Customers\Moharm Bik\I Count\I Count\obj\Debug\I_Count.NoteBook.resources
+F:\ICount Customers\Moharm Bik\I Count\I Count\obj\Debug\I_Count.Procurement.resources
+F:\ICount Customers\Moharm Bik\I Count\I Count\obj\Debug\I_Count.Products.resources
+F:\ICount Customers\Moharm Bik\I Count\I Count\obj\Debug\I_Count.Properties.Resources.resources
+F:\ICount Customers\Moharm Bik\I Count\I Count\obj\Debug\I_Count.PurchasesAccounting.resources
+F:\ICount Customers\Moharm Bik\I Count\I Count\obj\Debug\I_Count.PurchasesBills.resources
+F:\ICount Customers\Moharm Bik\I Count\I Count\obj\Debug\I_Count.ReportCorreputed.resources
+F:\ICount Customers\Moharm Bik\I Count\I Count\obj\Debug\I_Count.ReportExpenses.resources
+F:\ICount Customers\Moharm Bik\I Count\I Count\obj\Debug\I_Count.ReportIncome.resources
+F:\ICount Customers\Moharm Bik\I Count\I Count\obj\Debug\I_Count.Reports.resources
+F:\ICount Customers\Moharm Bik\I Count\I Count\obj\Debug\I_Count.ReportStore.resources
+F:\ICount Customers\Moharm Bik\I Count\I Count\obj\Debug\I_Count.ReportTransfer.resources
+F:\ICount Customers\Moharm Bik\I Count\I Count\obj\Debug\I_Count.Sales.resources
+F:\ICount Customers\Moharm Bik\I Count\I Count\obj\Debug\I_Count.SalesAccounting.resources
+F:\ICount Customers\Moharm Bik\I Count\I Count\obj\Debug\I_Count.SalesBills.resources
+F:\ICount Customers\Moharm Bik\I Count\I Count\obj\Debug\I_Count.Storages.resources
+F:\ICount Customers\Moharm Bik\I Count\I Count\obj\Debug\I_Count.Transfer.resources
+F:\ICount Customers\Moharm Bik\I Count\I Count\obj\Debug\I_Count.Users.resources
+F:\ICount Customers\Moharm Bik\I Count\I Count\obj\Debug\I_Count.Procurement.ar-EG.resources
+F:\ICount Customers\Moharm Bik\I Count\I Count\obj\Debug\I_Count.Procurement.ar.resources
+F:\ICount Customers\Moharm Bik\I Count\I Count\obj\Debug\I Count.csproj.GenerateResource.Cache
+F:\ICount Customers\Moharm Bik\I Count\I Count\obj\Debug\RdlCompile.cache
+F:\ICount Customers\Moharm Bik\I Count\I Count\obj\Debug\RdlCompile.compiled
+F:\ICount Customers\Moharm Bik\I Count\I Count\obj\Debug\ar-EG\I Count.resources.dll
+F:\ICount Customers\Moharm Bik\I Count\I Count\obj\Debug\ar\I Count.resources.dll
+F:\ICount Customers\Moharm Bik\I Count\I Count\obj\Debug\I_Count.Employess.resources
+F:\ICount Customers\Moharm Bik\I Count\I Count\obj\Debug\I_Count.EmployeeDebit.resources
+F:\ICount Customers\Moharm Bik\I Count\I Count\obj\Debug\I Count.csprojResolveAssemblyReference.cache
+F:\ICount Customers\Kafer-eldaware elsafa\I Count\I Count\bin\Debug\I Count.exe.config
+F:\ICount Customers\Kafer-eldaware elsafa\I Count\I Count\obj\Debug\I Count.exe
+F:\ICount Customers\Kafer-eldaware elsafa\I Count\I Count\obj\Debug\I Count.pdb
+F:\ICount Customers\Kafer-eldaware elsafa\I Count\I Count\bin\Debug\I Count.exe
+F:\ICount Customers\Kafer-eldaware elsafa\I Count\I Count\bin\Debug\I Count.pdb
+F:\ICount Customers\Kafer-eldaware elsafa\I Count\I Count\bin\Debug\ar-EG\I Count.resources.dll
+F:\ICount Customers\Kafer-eldaware elsafa\I Count\I Count\bin\Debug\ar\I Count.resources.dll
+F:\ICount Customers\Kafer-eldaware elsafa\I Count\I Count\bin\Debug\EntityFramework.dll
+F:\ICount Customers\Kafer-eldaware elsafa\I Count\I Count\bin\Debug\EntityFramework.xml
+F:\ICount Customers\Kafer-eldaware elsafa\I Count\I Count\obj\Debug\I_Count.BackinBills.resources
+F:\ICount Customers\Kafer-eldaware elsafa\I Count\I Count\obj\Debug\I_Count.Backoutbills.resources
+F:\ICount Customers\Kafer-eldaware elsafa\I Count\I Count\obj\Debug\I_Count.BackReport.resources
+F:\ICount Customers\Kafer-eldaware elsafa\I Count\I Count\obj\Debug\I_Count.Backup.resources
+F:\ICount Customers\Kafer-eldaware elsafa\I Count\I Count\obj\Debug\I_Count.Barcode.resources
+F:\ICount Customers\Kafer-eldaware elsafa\I Count\I Count\obj\Debug\I_Count.BillsEdit.resources
+F:\ICount Customers\Kafer-eldaware elsafa\I Count\I Count\obj\Debug\I_Count.ConvertingReport.resources
+F:\ICount Customers\Kafer-eldaware elsafa\I Count\I Count\obj\Debug\I_Count.Corrupted.resources
+F:\ICount Customers\Kafer-eldaware elsafa\I Count\I Count\obj\Debug\I_Count.EditBills.BackIn.resources
+F:\ICount Customers\Kafer-eldaware elsafa\I Count\I Count\obj\Debug\I_Count.EditBills.Buying.resources
+F:\ICount Customers\Kafer-eldaware elsafa\I Count\I Count\obj\Debug\I_Count.EditBills.Seals.resources
+F:\ICount Customers\Kafer-eldaware elsafa\I Count\I Count\obj\Debug\I_Count.EditCuPr.resources
+F:\ICount Customers\Kafer-eldaware elsafa\I Count\I Count\obj\Debug\I_Count.EditProducts.resources
+F:\ICount Customers\Kafer-eldaware elsafa\I Count\I Count\obj\Debug\I_Count.EmployeeDebit.resources
+F:\ICount Customers\Kafer-eldaware elsafa\I Count\I Count\obj\Debug\I_Count.Employess.resources
+F:\ICount Customers\Kafer-eldaware elsafa\I Count\I Count\obj\Debug\I_Count.Expenses.resources
+F:\ICount Customers\Kafer-eldaware elsafa\I Count\I Count\obj\Debug\I_Count.Home.resources
+F:\ICount Customers\Kafer-eldaware elsafa\I Count\I Count\obj\Debug\I_Count.LateCuReport.resources
+F:\ICount Customers\Kafer-eldaware elsafa\I Count\I Count\obj\Debug\I_Count.LateProReport.resources
+F:\ICount Customers\Kafer-eldaware elsafa\I Count\I Count\obj\Debug\I_Count.Login.resources
+F:\ICount Customers\Kafer-eldaware elsafa\I Count\I Count\obj\Debug\I_Count.Minimum.resources
+F:\ICount Customers\Kafer-eldaware elsafa\I Count\I Count\obj\Debug\I_Count.Mortag3.resources
+F:\ICount Customers\Kafer-eldaware elsafa\I Count\I Count\obj\Debug\I_Count.NoteBook.resources
+F:\ICount Customers\Kafer-eldaware elsafa\I Count\I Count\obj\Debug\I_Count.Procurement.resources
+F:\ICount Customers\Kafer-eldaware elsafa\I Count\I Count\obj\Debug\I_Count.Products.resources
+F:\ICount Customers\Kafer-eldaware elsafa\I Count\I Count\obj\Debug\I_Count.Properties.Resources.resources
+F:\ICount Customers\Kafer-eldaware elsafa\I Count\I Count\obj\Debug\I_Count.PurchasesAccounting.resources
+F:\ICount Customers\Kafer-eldaware elsafa\I Count\I Count\obj\Debug\I_Count.PurchasesBills.resources
+F:\ICount Customers\Kafer-eldaware elsafa\I Count\I Count\obj\Debug\I_Count.ReportCorreputed.resources
+F:\ICount Customers\Kafer-eldaware elsafa\I Count\I Count\obj\Debug\I_Count.ReportExpenses.resources
+F:\ICount Customers\Kafer-eldaware elsafa\I Count\I Count\obj\Debug\I_Count.ReportIncome.resources
+F:\ICount Customers\Kafer-eldaware elsafa\I Count\I Count\obj\Debug\I_Count.Reports.resources
+F:\ICount Customers\Kafer-eldaware elsafa\I Count\I Count\obj\Debug\I_Count.ReportStore.resources
+F:\ICount Customers\Kafer-eldaware elsafa\I Count\I Count\obj\Debug\I_Count.ReportTransfer.resources
+F:\ICount Customers\Kafer-eldaware elsafa\I Count\I Count\obj\Debug\I_Count.Sales.resources
+F:\ICount Customers\Kafer-eldaware elsafa\I Count\I Count\obj\Debug\I_Count.SalesAccounting.resources
+F:\ICount Customers\Kafer-eldaware elsafa\I Count\I Count\obj\Debug\I_Count.SalesBills.resources
+F:\ICount Customers\Kafer-eldaware elsafa\I Count\I Count\obj\Debug\I_Count.Storages.resources
+F:\ICount Customers\Kafer-eldaware elsafa\I Count\I Count\obj\Debug\I_Count.Transfer.resources
+F:\ICount Customers\Kafer-eldaware elsafa\I Count\I Count\obj\Debug\I_Count.Users.resources
+F:\ICount Customers\Kafer-eldaware elsafa\I Count\I Count\obj\Debug\I_Count.Procurement.ar-EG.resources
+F:\ICount Customers\Kafer-eldaware elsafa\I Count\I Count\obj\Debug\I_Count.Procurement.ar.resources
+F:\ICount Customers\Kafer-eldaware elsafa\I Count\I Count\obj\Debug\I Count.csproj.GenerateResource.Cache
+F:\ICount Customers\Kafer-eldaware elsafa\I Count\I Count\obj\Debug\RdlCompile.cache
+F:\ICount Customers\Kafer-eldaware elsafa\I Count\I Count\obj\Debug\RdlCompile.compiled
+F:\ICount Customers\Kafer-eldaware elsafa\I Count\I Count\obj\Debug\ar-EG\I Count.resources.dll
+F:\ICount Customers\Kafer-eldaware elsafa\I Count\I Count\obj\Debug\ar\I Count.resources.dll
+F:\ICount Customers\Kafer-eldaware elsafa\I Count\I Count\obj\Debug\I Count.csprojResolveAssemblyReference.cache
+F:\ICount Customers\Kafer El-daware Elmotaheda Alomtal\I Count\I Count\bin\Debug\I Count.exe.config
+F:\ICount Customers\Kafer El-daware Elmotaheda Alomtal\I Count\I Count\obj\Debug\I Count.exe
+F:\ICount Customers\Kafer El-daware Elmotaheda Alomtal\I Count\I Count\obj\Debug\I Count.pdb
+F:\ICount Customers\Kafer El-daware Elmotaheda Alomtal\I Count\I Count\bin\Debug\I Count.exe
+F:\ICount Customers\Kafer El-daware Elmotaheda Alomtal\I Count\I Count\bin\Debug\I Count.pdb
+F:\ICount Customers\Kafer El-daware Elmotaheda Alomtal\I Count\I Count\bin\Debug\ar-EG\I Count.resources.dll
+F:\ICount Customers\Kafer El-daware Elmotaheda Alomtal\I Count\I Count\bin\Debug\ar\I Count.resources.dll
+F:\ICount Customers\Kafer El-daware Elmotaheda Alomtal\I Count\I Count\bin\Debug\EntityFramework.dll
+F:\ICount Customers\Kafer El-daware Elmotaheda Alomtal\I Count\I Count\bin\Debug\EntityFramework.xml
+F:\ICount Customers\Kafer El-daware Elmotaheda Alomtal\I Count\I Count\obj\Debug\I_Count.BackinBills.resources
+F:\ICount Customers\Kafer El-daware Elmotaheda Alomtal\I Count\I Count\obj\Debug\I_Count.Backoutbills.resources
+F:\ICount Customers\Kafer El-daware Elmotaheda Alomtal\I Count\I Count\obj\Debug\I_Count.BackReport.resources
+F:\ICount Customers\Kafer El-daware Elmotaheda Alomtal\I Count\I Count\obj\Debug\I_Count.Backup.resources
+F:\ICount Customers\Kafer El-daware Elmotaheda Alomtal\I Count\I Count\obj\Debug\I_Count.Barcode.resources
+F:\ICount Customers\Kafer El-daware Elmotaheda Alomtal\I Count\I Count\obj\Debug\I_Count.BillsEdit.resources
+F:\ICount Customers\Kafer El-daware Elmotaheda Alomtal\I Count\I Count\obj\Debug\I_Count.ConvertingReport.resources
+F:\ICount Customers\Kafer El-daware Elmotaheda Alomtal\I Count\I Count\obj\Debug\I_Count.Corrupted.resources
+F:\ICount Customers\Kafer El-daware Elmotaheda Alomtal\I Count\I Count\obj\Debug\I_Count.EditBills.BackIn.resources
+F:\ICount Customers\Kafer El-daware Elmotaheda Alomtal\I Count\I Count\obj\Debug\I_Count.EditBills.Buying.resources
+F:\ICount Customers\Kafer El-daware Elmotaheda Alomtal\I Count\I Count\obj\Debug\I_Count.EditBills.Seals.resources
+F:\ICount Customers\Kafer El-daware Elmotaheda Alomtal\I Count\I Count\obj\Debug\I_Count.EditCuPr.resources
+F:\ICount Customers\Kafer El-daware Elmotaheda Alomtal\I Count\I Count\obj\Debug\I_Count.EditProducts.resources
+F:\ICount Customers\Kafer El-daware Elmotaheda Alomtal\I Count\I Count\obj\Debug\I_Count.EmployeeDebit.resources
+F:\ICount Customers\Kafer El-daware Elmotaheda Alomtal\I Count\I Count\obj\Debug\I_Count.Employess.resources
+F:\ICount Customers\Kafer El-daware Elmotaheda Alomtal\I Count\I Count\obj\Debug\I_Count.Expenses.resources
+F:\ICount Customers\Kafer El-daware Elmotaheda Alomtal\I Count\I Count\obj\Debug\I_Count.Home.resources
+F:\ICount Customers\Kafer El-daware Elmotaheda Alomtal\I Count\I Count\obj\Debug\I_Count.LateCuReport.resources
+F:\ICount Customers\Kafer El-daware Elmotaheda Alomtal\I Count\I Count\obj\Debug\I_Count.LateProReport.resources
+F:\ICount Customers\Kafer El-daware Elmotaheda Alomtal\I Count\I Count\obj\Debug\I_Count.Login.resources
+F:\ICount Customers\Kafer El-daware Elmotaheda Alomtal\I Count\I Count\obj\Debug\I_Count.Minimum.resources
+F:\ICount Customers\Kafer El-daware Elmotaheda Alomtal\I Count\I Count\obj\Debug\I_Count.Mortag3.resources
+F:\ICount Customers\Kafer El-daware Elmotaheda Alomtal\I Count\I Count\obj\Debug\I_Count.NoteBook.resources
+F:\ICount Customers\Kafer El-daware Elmotaheda Alomtal\I Count\I Count\obj\Debug\I_Count.Procurement.resources
+F:\ICount Customers\Kafer El-daware Elmotaheda Alomtal\I Count\I Count\obj\Debug\I_Count.Products.resources
+F:\ICount Customers\Kafer El-daware Elmotaheda Alomtal\I Count\I Count\obj\Debug\I_Count.Properties.Resources.resources
+F:\ICount Customers\Kafer El-daware Elmotaheda Alomtal\I Count\I Count\obj\Debug\I_Count.PurchasesAccounting.resources
+F:\ICount Customers\Kafer El-daware Elmotaheda Alomtal\I Count\I Count\obj\Debug\I_Count.PurchasesBills.resources
+F:\ICount Customers\Kafer El-daware Elmotaheda Alomtal\I Count\I Count\obj\Debug\I_Count.ReportCorreputed.resources
+F:\ICount Customers\Kafer El-daware Elmotaheda Alomtal\I Count\I Count\obj\Debug\I_Count.ReportExpenses.resources
+F:\ICount Customers\Kafer El-daware Elmotaheda Alomtal\I Count\I Count\obj\Debug\I_Count.ReportIncome.resources
+F:\ICount Customers\Kafer El-daware Elmotaheda Alomtal\I Count\I Count\obj\Debug\I_Count.Reports.resources
+F:\ICount Customers\Kafer El-daware Elmotaheda Alomtal\I Count\I Count\obj\Debug\I_Count.ReportStore.resources
+F:\ICount Customers\Kafer El-daware Elmotaheda Alomtal\I Count\I Count\obj\Debug\I_Count.ReportTransfer.resources
+F:\ICount Customers\Kafer El-daware Elmotaheda Alomtal\I Count\I Count\obj\Debug\I_Count.Sales.resources
+F:\ICount Customers\Kafer El-daware Elmotaheda Alomtal\I Count\I Count\obj\Debug\I_Count.SalesAccounting.resources
+F:\ICount Customers\Kafer El-daware Elmotaheda Alomtal\I Count\I Count\obj\Debug\I_Count.SalesBills.resources
+F:\ICount Customers\Kafer El-daware Elmotaheda Alomtal\I Count\I Count\obj\Debug\I_Count.Storages.resources
+F:\ICount Customers\Kafer El-daware Elmotaheda Alomtal\I Count\I Count\obj\Debug\I_Count.Transfer.resources
+F:\ICount Customers\Kafer El-daware Elmotaheda Alomtal\I Count\I Count\obj\Debug\I_Count.Users.resources
+F:\ICount Customers\Kafer El-daware Elmotaheda Alomtal\I Count\I Count\obj\Debug\I_Count.Procurement.ar-EG.resources
+F:\ICount Customers\Kafer El-daware Elmotaheda Alomtal\I Count\I Count\obj\Debug\I_Count.Procurement.ar.resources
+F:\ICount Customers\Kafer El-daware Elmotaheda Alomtal\I Count\I Count\obj\Debug\I Count.csproj.GenerateResource.Cache
+F:\ICount Customers\Kafer El-daware Elmotaheda Alomtal\I Count\I Count\obj\Debug\RdlCompile.cache
+F:\ICount Customers\Kafer El-daware Elmotaheda Alomtal\I Count\I Count\obj\Debug\RdlCompile.compiled
+F:\ICount Customers\Kafer El-daware Elmotaheda Alomtal\I Count\I Count\obj\Debug\ar-EG\I Count.resources.dll
+F:\ICount Customers\Kafer El-daware Elmotaheda Alomtal\I Count\I Count\obj\Debug\ar\I Count.resources.dll
+F:\ICount Customers\Kafer El-daware Elmotaheda Alomtal\I Count\I Count\obj\Debug\I_Count.LogsReport.resources
+F:\ICount Customers\Kafer El-daware Elmotaheda Alomtal\I Count\I Count\obj\Debug\I_Count.EditBills.Backout.resources
+F:\ICount Customers\SuperMarket\I Count\I Count\bin\Debug\I Count.exe.config
+F:\ICount Customers\SuperMarket\I Count\I Count\obj\Debug\I Count.exe
+F:\ICount Customers\SuperMarket\I Count\I Count\obj\Debug\I Count.pdb
+F:\ICount Customers\SuperMarket\I Count\I Count\obj\Debug\I_Count.BackinBills.resources
+F:\ICount Customers\SuperMarket\I Count\I Count\obj\Debug\I_Count.Backoutbills.resources
+F:\ICount Customers\SuperMarket\I Count\I Count\obj\Debug\I_Count.BackReport.resources
+F:\ICount Customers\SuperMarket\I Count\I Count\obj\Debug\I_Count.Backup.resources
+F:\ICount Customers\SuperMarket\I Count\I Count\obj\Debug\I_Count.Barcode.resources
+F:\ICount Customers\SuperMarket\I Count\I Count\obj\Debug\I_Count.BillsEdit.resources
+F:\ICount Customers\SuperMarket\I Count\I Count\obj\Debug\I_Count.ConvertingReport.resources
+F:\ICount Customers\SuperMarket\I Count\I Count\obj\Debug\I_Count.Corrupted.resources
+F:\ICount Customers\SuperMarket\I Count\I Count\obj\Debug\I_Count.EditBills.BackIn.resources
+F:\ICount Customers\SuperMarket\I Count\I Count\obj\Debug\I_Count.EditBills.Backout.resources
+F:\ICount Customers\SuperMarket\I Count\I Count\obj\Debug\I_Count.EditBills.Buying.resources
+F:\ICount Customers\SuperMarket\I Count\I Count\obj\Debug\I_Count.EditBills.Seals.resources
+F:\ICount Customers\SuperMarket\I Count\I Count\obj\Debug\I_Count.EditCuPr.resources
+F:\ICount Customers\SuperMarket\I Count\I Count\obj\Debug\I_Count.EditProducts.resources
+F:\ICount Customers\SuperMarket\I Count\I Count\obj\Debug\I_Count.EmployeeDebit.resources
+F:\ICount Customers\SuperMarket\I Count\I Count\obj\Debug\I_Count.Employess.resources
+F:\ICount Customers\SuperMarket\I Count\I Count\obj\Debug\I_Count.Expenses.resources
+F:\ICount Customers\SuperMarket\I Count\I Count\obj\Debug\I_Count.Home.resources
+F:\ICount Customers\SuperMarket\I Count\I Count\obj\Debug\I_Count.LateCuReport.resources
+F:\ICount Customers\SuperMarket\I Count\I Count\obj\Debug\I_Count.LateProReport.resources
+F:\ICount Customers\SuperMarket\I Count\I Count\obj\Debug\I_Count.Login.resources
+F:\ICount Customers\SuperMarket\I Count\I Count\obj\Debug\I_Count.LogsReport.resources
+F:\ICount Customers\SuperMarket\I Count\I Count\obj\Debug\I_Count.Minimum.resources
+F:\ICount Customers\SuperMarket\I Count\I Count\obj\Debug\I_Count.Mortag3.resources
+F:\ICount Customers\SuperMarket\I Count\I Count\obj\Debug\I_Count.NoteBook.resources
+F:\ICount Customers\SuperMarket\I Count\I Count\obj\Debug\I_Count.Procurement.resources
+F:\ICount Customers\SuperMarket\I Count\I Count\obj\Debug\I_Count.Products.resources
+F:\ICount Customers\SuperMarket\I Count\I Count\obj\Debug\I_Count.Properties.Resources.resources
+F:\ICount Customers\SuperMarket\I Count\I Count\obj\Debug\I_Count.PurchasesAccounting.resources
+F:\ICount Customers\SuperMarket\I Count\I Count\obj\Debug\I_Count.PurchasesBills.resources
+F:\ICount Customers\SuperMarket\I Count\I Count\obj\Debug\I_Count.ReportCorreputed.resources
+F:\ICount Customers\SuperMarket\I Count\I Count\obj\Debug\I_Count.ReportExpenses.resources
+F:\ICount Customers\SuperMarket\I Count\I Count\obj\Debug\I_Count.ReportIncome.resources
+F:\ICount Customers\SuperMarket\I Count\I Count\obj\Debug\I_Count.Reports.resources
+F:\ICount Customers\SuperMarket\I Count\I Count\obj\Debug\I_Count.ReportStore.resources
+F:\ICount Customers\SuperMarket\I Count\I Count\obj\Debug\I_Count.ReportTransfer.resources
+F:\ICount Customers\SuperMarket\I Count\I Count\obj\Debug\I_Count.Sales.resources
+F:\ICount Customers\SuperMarket\I Count\I Count\obj\Debug\I_Count.SalesAccounting.resources
+F:\ICount Customers\SuperMarket\I Count\I Count\obj\Debug\I_Count.SalesBills.resources
+F:\ICount Customers\SuperMarket\I Count\I Count\obj\Debug\I_Count.Storages.resources
+F:\ICount Customers\SuperMarket\I Count\I Count\obj\Debug\I_Count.Transfer.resources
+F:\ICount Customers\SuperMarket\I Count\I Count\obj\Debug\I_Count.Users.resources
+F:\ICount Customers\SuperMarket\I Count\I Count\obj\Debug\I_Count.Procurement.ar-EG.resources
+F:\ICount Customers\SuperMarket\I Count\I Count\obj\Debug\I_Count.Procurement.ar.resources
+F:\ICount Customers\SuperMarket\I Count\I Count\obj\Debug\I Count.csproj.GenerateResource.Cache
+F:\ICount Customers\SuperMarket\I Count\I Count\bin\Debug\I Count.exe
+F:\ICount Customers\SuperMarket\I Count\I Count\bin\Debug\I Count.pdb
+F:\ICount Customers\SuperMarket\I Count\I Count\bin\Debug\ar-EG\I Count.resources.dll
+F:\ICount Customers\SuperMarket\I Count\I Count\bin\Debug\ar\I Count.resources.dll
+F:\ICount Customers\SuperMarket\I Count\I Count\bin\Debug\EntityFramework.dll
+F:\ICount Customers\SuperMarket\I Count\I Count\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+F:\ICount Customers\SuperMarket\I Count\I Count\bin\Debug\Microsoft.ReportViewer.Common.dll
+F:\ICount Customers\SuperMarket\I Count\I Count\bin\Debug\EntityFramework.xml
+F:\ICount Customers\SuperMarket\I Count\I Count\bin\Debug\Microsoft.ReportViewer.WinForms.xml
+F:\ICount Customers\SuperMarket\I Count\I Count\obj\Debug\ar-EG\I Count.resources.dll
+F:\ICount Customers\SuperMarket\I Count\I Count\obj\Debug\ar\I Count.resources.dll
+F:\ICount Customers\SuperMarket\I Count\I Count\obj\Debug\I Count.csprojResolveAssemblyReference.cache
+F:\ICount Customers\SuperMarket\I Count\I Count\obj\Debug\I_Count.UnitsManger.resources
+F:\ICount Customers\Kafer-eldaware elsafa\New Icount\I Count\I Count\bin\Debug\I Count.exe.config
+F:\ICount Customers\Kafer-eldaware elsafa\New Icount\I Count\I Count\obj\Debug\I Count.exe
+F:\ICount Customers\Kafer-eldaware elsafa\New Icount\I Count\I Count\obj\Debug\I Count.pdb
+F:\ICount Customers\Kafer-eldaware elsafa\New Icount\I Count\I Count\bin\Debug\I Count.exe
+F:\ICount Customers\Kafer-eldaware elsafa\New Icount\I Count\I Count\bin\Debug\I Count.pdb
+F:\ICount Customers\Kafer-eldaware elsafa\New Icount\I Count\I Count\bin\Debug\ar-EG\I Count.resources.dll
+F:\ICount Customers\Kafer-eldaware elsafa\New Icount\I Count\I Count\bin\Debug\ar\I Count.resources.dll
+F:\ICount Customers\Kafer-eldaware elsafa\New Icount\I Count\I Count\bin\Debug\EntityFramework.dll
+F:\ICount Customers\Kafer-eldaware elsafa\New Icount\I Count\I Count\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+F:\ICount Customers\Kafer-eldaware elsafa\New Icount\I Count\I Count\bin\Debug\Microsoft.SqlServer.Types.dll
+F:\ICount Customers\Kafer-eldaware elsafa\New Icount\I Count\I Count\bin\Debug\EntityFramework.xml
+F:\ICount Customers\Kafer-eldaware elsafa\New Icount\I Count\I Count\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+F:\ICount Customers\Kafer-eldaware elsafa\New Icount\I Count\I Count\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+F:\ICount Customers\Kafer-eldaware elsafa\New Icount\I Count\I Count\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+F:\ICount Customers\Kafer-eldaware elsafa\New Icount\I Count\I Count\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+F:\ICount Customers\Kafer-eldaware elsafa\New Icount\I Count\I Count\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+F:\ICount Customers\Kafer-eldaware elsafa\New Icount\I Count\I Count\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+F:\ICount Customers\Kafer-eldaware elsafa\New Icount\I Count\I Count\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+F:\ICount Customers\Kafer-eldaware elsafa\New Icount\I Count\I Count\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+F:\ICount Customers\Kafer-eldaware elsafa\New Icount\I Count\I Count\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+F:\ICount Customers\Kafer-eldaware elsafa\New Icount\I Count\I Count\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+F:\ICount Customers\Kafer-eldaware elsafa\New Icount\I Count\I Count\obj\Debug\I Count.csprojResolveAssemblyReference.cache
+F:\ICount Customers\Kafer-eldaware elsafa\New Icount\I Count\I Count\obj\Debug\I_Count.BackinBills.resources
+F:\ICount Customers\Kafer-eldaware elsafa\New Icount\I Count\I Count\obj\Debug\I_Count.Backoutbills.resources
+F:\ICount Customers\Kafer-eldaware elsafa\New Icount\I Count\I Count\obj\Debug\I_Count.BackReport.resources
+F:\ICount Customers\Kafer-eldaware elsafa\New Icount\I Count\I Count\obj\Debug\I_Count.Backup.resources
+F:\ICount Customers\Kafer-eldaware elsafa\New Icount\I Count\I Count\obj\Debug\I_Count.Barcode.resources
+F:\ICount Customers\Kafer-eldaware elsafa\New Icount\I Count\I Count\obj\Debug\I_Count.BillsEdit.resources
+F:\ICount Customers\Kafer-eldaware elsafa\New Icount\I Count\I Count\obj\Debug\I_Count.ConvertingReport.resources
+F:\ICount Customers\Kafer-eldaware elsafa\New Icount\I Count\I Count\obj\Debug\I_Count.Corrupted.resources
+F:\ICount Customers\Kafer-eldaware elsafa\New Icount\I Count\I Count\obj\Debug\I_Count.EditBills.BackIn.resources
+F:\ICount Customers\Kafer-eldaware elsafa\New Icount\I Count\I Count\obj\Debug\I_Count.EditBills.Backout.resources
+F:\ICount Customers\Kafer-eldaware elsafa\New Icount\I Count\I Count\obj\Debug\I_Count.EditBills.Buying.resources
+F:\ICount Customers\Kafer-eldaware elsafa\New Icount\I Count\I Count\obj\Debug\I_Count.EditBills.Seals.resources
+F:\ICount Customers\Kafer-eldaware elsafa\New Icount\I Count\I Count\obj\Debug\I_Count.EditCuPr.resources
+F:\ICount Customers\Kafer-eldaware elsafa\New Icount\I Count\I Count\obj\Debug\I_Count.EditProducts.resources
+F:\ICount Customers\Kafer-eldaware elsafa\New Icount\I Count\I Count\obj\Debug\I_Count.EmployeeDebit.resources
+F:\ICount Customers\Kafer-eldaware elsafa\New Icount\I Count\I Count\obj\Debug\I_Count.Employess.resources
+F:\ICount Customers\Kafer-eldaware elsafa\New Icount\I Count\I Count\obj\Debug\I_Count.Expenses.resources
+F:\ICount Customers\Kafer-eldaware elsafa\New Icount\I Count\I Count\obj\Debug\I_Count.Home.resources
+F:\ICount Customers\Kafer-eldaware elsafa\New Icount\I Count\I Count\obj\Debug\I_Count.LateCuReport.resources
+F:\ICount Customers\Kafer-eldaware elsafa\New Icount\I Count\I Count\obj\Debug\I_Count.LateProReport.resources
+F:\ICount Customers\Kafer-eldaware elsafa\New Icount\I Count\I Count\obj\Debug\I_Count.Login.resources
+F:\ICount Customers\Kafer-eldaware elsafa\New Icount\I Count\I Count\obj\Debug\I_Count.LogsReport.resources
+F:\ICount Customers\Kafer-eldaware elsafa\New Icount\I Count\I Count\obj\Debug\I_Count.Minimum.resources
+F:\ICount Customers\Kafer-eldaware elsafa\New Icount\I Count\I Count\obj\Debug\I_Count.Mortag3.resources
+F:\ICount Customers\Kafer-eldaware elsafa\New Icount\I Count\I Count\obj\Debug\I_Count.NoteBook.resources
+F:\ICount Customers\Kafer-eldaware elsafa\New Icount\I Count\I Count\obj\Debug\I_Count.Procurement.resources
+F:\ICount Customers\Kafer-eldaware elsafa\New Icount\I Count\I Count\obj\Debug\I_Count.Products.resources
+F:\ICount Customers\Kafer-eldaware elsafa\New Icount\I Count\I Count\obj\Debug\I_Count.Properties.Resources.resources
+F:\ICount Customers\Kafer-eldaware elsafa\New Icount\I Count\I Count\obj\Debug\I_Count.PurchasesAccounting.resources
+F:\ICount Customers\Kafer-eldaware elsafa\New Icount\I Count\I Count\obj\Debug\I_Count.PurchasesBills.resources
+F:\ICount Customers\Kafer-eldaware elsafa\New Icount\I Count\I Count\obj\Debug\I_Count.ReportCorreputed.resources
+F:\ICount Customers\Kafer-eldaware elsafa\New Icount\I Count\I Count\obj\Debug\I_Count.ReportExpenses.resources
+F:\ICount Customers\Kafer-eldaware elsafa\New Icount\I Count\I Count\obj\Debug\I_Count.ReportIncome.resources
+F:\ICount Customers\Kafer-eldaware elsafa\New Icount\I Count\I Count\obj\Debug\I_Count.Reports.resources
+F:\ICount Customers\Kafer-eldaware elsafa\New Icount\I Count\I Count\obj\Debug\I_Count.ReportStore.resources
+F:\ICount Customers\Kafer-eldaware elsafa\New Icount\I Count\I Count\obj\Debug\I_Count.ReportTransfer.resources
+F:\ICount Customers\Kafer-eldaware elsafa\New Icount\I Count\I Count\obj\Debug\I_Count.Sales.resources
+F:\ICount Customers\Kafer-eldaware elsafa\New Icount\I Count\I Count\obj\Debug\I_Count.SalesAccounting.resources
+F:\ICount Customers\Kafer-eldaware elsafa\New Icount\I Count\I Count\obj\Debug\I_Count.SalesBills.resources
+F:\ICount Customers\Kafer-eldaware elsafa\New Icount\I Count\I Count\obj\Debug\I_Count.Storages.resources
+F:\ICount Customers\Kafer-eldaware elsafa\New Icount\I Count\I Count\obj\Debug\I_Count.Transfer.resources
+F:\ICount Customers\Kafer-eldaware elsafa\New Icount\I Count\I Count\obj\Debug\I_Count.UnitsManger.resources
+F:\ICount Customers\Kafer-eldaware elsafa\New Icount\I Count\I Count\obj\Debug\I_Count.Users.resources
+F:\ICount Customers\Kafer-eldaware elsafa\New Icount\I Count\I Count\obj\Debug\I_Count.Procurement.ar-EG.resources
+F:\ICount Customers\Kafer-eldaware elsafa\New Icount\I Count\I Count\obj\Debug\I_Count.Procurement.ar.resources
+F:\ICount Customers\Kafer-eldaware elsafa\New Icount\I Count\I Count\obj\Debug\I Count.csproj.GenerateResource.Cache
+F:\ICount Customers\Kafer-eldaware elsafa\New Icount\I Count\I Count\obj\Debug\RdlCompile.cache
+F:\ICount Customers\Kafer-eldaware elsafa\New Icount\I Count\I Count\obj\Debug\RdlCompile.compiled
+F:\ICount Customers\Kafer-eldaware elsafa\New Icount\I Count\I Count\obj\Debug\ar-EG\I Count.resources.dll
+F:\ICount Customers\Kafer-eldaware elsafa\New Icount\I Count\I Count\obj\Debug\ar\I Count.resources.dll
+F:\ICount Customers\Kafer-eldaware elsafa\New Icount\I Count\I Count\obj\Debug\I_Count.NewReports.resources
+F:\Icount_2017\I Count\bin\Debug\I Count.exe.config
+F:\Icount_2017\I Count\obj\Debug\I Count.exe
+F:\Icount_2017\I Count\obj\Debug\I Count.pdb
+F:\Icount_2017\I Count\obj\Debug\I_Count.BackinBills.resources
+F:\Icount_2017\I Count\obj\Debug\I_Count.Backoutbills.resources
+F:\Icount_2017\I Count\obj\Debug\I_Count.BackReport.resources
+F:\Icount_2017\I Count\obj\Debug\I_Count.Backup.resources
+F:\Icount_2017\I Count\obj\Debug\I_Count.Barcode.resources
+F:\Icount_2017\I Count\obj\Debug\I_Count.BillsEdit.resources
+F:\Icount_2017\I Count\obj\Debug\I_Count.ConvertingReport.resources
+F:\Icount_2017\I Count\obj\Debug\I_Count.Corrupted.resources
+F:\Icount_2017\I Count\obj\Debug\I_Count.EditBills.BackIn.resources
+F:\Icount_2017\I Count\obj\Debug\I_Count.EditBills.Backout.resources
+F:\Icount_2017\I Count\obj\Debug\I_Count.EditBills.Buying.resources
+F:\Icount_2017\I Count\obj\Debug\I_Count.EditBills.Seals.resources
+F:\Icount_2017\I Count\obj\Debug\I_Count.EditCuPr.resources
+F:\Icount_2017\I Count\obj\Debug\I_Count.EditProducts.resources
+F:\Icount_2017\I Count\obj\Debug\I_Count.EmployeeDebit.resources
+F:\Icount_2017\I Count\obj\Debug\I_Count.Employess.resources
+F:\Icount_2017\I Count\obj\Debug\I_Count.Expenses.resources
+F:\Icount_2017\I Count\obj\Debug\I_Count.Home.resources
+F:\Icount_2017\I Count\obj\Debug\I_Count.LateCuReport.resources
+F:\Icount_2017\I Count\obj\Debug\I_Count.LateProReport.resources
+F:\Icount_2017\I Count\obj\Debug\I_Count.Login.resources
+F:\Icount_2017\I Count\obj\Debug\I_Count.LogsReport.resources
+F:\Icount_2017\I Count\obj\Debug\I_Count.Minimum.resources
+F:\Icount_2017\I Count\obj\Debug\I_Count.Mortag3.resources
+F:\Icount_2017\I Count\obj\Debug\I_Count.NewReports.resources
+F:\Icount_2017\I Count\obj\Debug\I_Count.NoteBook.resources
+F:\Icount_2017\I Count\obj\Debug\I_Count.Procurement.resources
+F:\Icount_2017\I Count\obj\Debug\I_Count.Products.resources
+F:\Icount_2017\I Count\obj\Debug\I_Count.PurchasesAccounting.resources
+F:\Icount_2017\I Count\obj\Debug\I_Count.PurchasesBills.resources
+F:\Icount_2017\I Count\obj\Debug\I_Count.ReportCorreputed.resources
+F:\Icount_2017\I Count\obj\Debug\I_Count.ReportExpenses.resources
+F:\Icount_2017\I Count\obj\Debug\I_Count.ReportIncome.resources
+F:\Icount_2017\I Count\obj\Debug\I_Count.Reports.resources
+F:\Icount_2017\I Count\obj\Debug\I_Count.ReportStore.resources
+F:\Icount_2017\I Count\obj\Debug\I_Count.ReportTransfer.resources
+F:\Icount_2017\I Count\obj\Debug\I_Count.Sales.resources
+F:\Icount_2017\I Count\obj\Debug\I_Count.SalesAccounting.resources
+F:\Icount_2017\I Count\obj\Debug\I_Count.SalesBills.resources
+F:\Icount_2017\I Count\obj\Debug\I_Count.Storages.resources
+F:\Icount_2017\I Count\obj\Debug\I_Count.Transfer.resources
+F:\Icount_2017\I Count\obj\Debug\I_Count.UnitsManger.resources
+F:\Icount_2017\I Count\obj\Debug\I_Count.Users.resources
+F:\Icount_2017\I Count\obj\Debug\I_Count.Procurement.ar-EG.resources
+F:\Icount_2017\I Count\obj\Debug\I_Count.Procurement.ar.resources
+F:\Icount_2017\I Count\obj\Debug\I Count.csproj.GenerateResource.Cache
+F:\Icount_2017\I Count\bin\Debug\I Count.exe
+F:\Icount_2017\I Count\bin\Debug\I Count.pdb
+F:\Icount_2017\I Count\bin\Debug\ar-EG\I Count.resources.dll
+F:\Icount_2017\I Count\bin\Debug\ar\I Count.resources.dll
+F:\Icount_2017\I Count\bin\Debug\EntityFramework.dll
+F:\Icount_2017\I Count\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+F:\Icount_2017\I Count\bin\Debug\Microsoft.SqlServer.Types.dll
+F:\Icount_2017\I Count\bin\Debug\EntityFramework.xml
+F:\Icount_2017\I Count\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+F:\Icount_2017\I Count\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+F:\Icount_2017\I Count\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+F:\Icount_2017\I Count\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+F:\Icount_2017\I Count\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+F:\Icount_2017\I Count\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+F:\Icount_2017\I Count\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+F:\Icount_2017\I Count\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+F:\Icount_2017\I Count\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+F:\Icount_2017\I Count\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+F:\Icount_2017\I Count\obj\Debug\I_Count.Properties.Resources.resources
+F:\Icount_2017\I Count\obj\Debug\RdlCompile.cache
+F:\Icount_2017\I Count\obj\Debug\RdlCompile.compiled
+F:\Icount_2017\I Count\obj\Debug\ar-EG\I Count.resources.dll
+F:\Icount_2017\I Count\obj\Debug\ar\I Count.resources.dll
+F:\Icount_2017\I Count\obj\Debug\I_Count.ICountStore.resources
+F:\Icount_2017\I Count\bin\Debug\PagedList.dll
+F:\Icount_2017\I Count\bin\Debug\PagedList.xml
+F:\Icount_2017\I Count\obj\Debug\I_Count.SetItems.resources

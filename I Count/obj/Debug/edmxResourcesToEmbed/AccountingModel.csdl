@@ -1,0 +1,1861 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="AccountingModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="AccountingEntities" annotation:LazyLoadingEnabled="true">
+    <FunctionImport Name="Addbackoutbill">
+      <Parameter Name="BackoutID" Mode="In" Type="Int32" />
+      <Parameter Name="ProductID" Mode="In" Type="Int32" />
+      <Parameter Name="OutProdNum" Mode="In" Type="String" />
+      <Parameter Name="OutPrice" Mode="In" Type="String" />
+      <Parameter Name="OutTotal" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="AddCorrupted">
+      <Parameter Name="CorruptedID" Mode="InOut" Type="Int32" />
+      <Parameter Name="DateOfbill" Mode="In" Type="DateTime" />
+      <Parameter Name="CorruptedLost" Mode="In" Type="String" />
+      <Parameter Name="UserID" Mode="In" Type="Int32" />
+      <Parameter Name="StoreID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="AddCorruptedbill">
+      <Parameter Name="CorruptedID" Mode="In" Type="Int32" />
+      <Parameter Name="CorruptedNum" Mode="In" Type="String" />
+      <Parameter Name="ProductID" Mode="In" Type="Int32" />
+      <Parameter Name="Exist" Mode="In" Type="Double" />
+      <Parameter Name="CoMoney" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="AddCusProc">
+      <Parameter Name="DateOfProc" Mode="In" Type="DateTime" />
+      <Parameter Name="PayedValue" Mode="In" Type="String" />
+      <Parameter Name="CustomerID" Mode="In" Type="Int32" />
+      <Parameter Name="ProcName" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="AddCustomer">
+      <Parameter Name="CustomerID" Mode="InOut" Type="Int32" />
+      <Parameter Name="CustomerName" Mode="In" Type="String" />
+      <Parameter Name="CustomerPhone" Mode="In" Type="String" />
+      <Parameter Name="CustomerCompany" Mode="In" Type="String" />
+      <Parameter Name="Credit" Mode="In" Type="String" />
+      <Parameter Name="Debit" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="AddExpenses">
+      <Parameter Name="ExpensesReason" Mode="In" Type="String" />
+      <Parameter Name="ExpensesDate" Mode="In" Type="DateTime" />
+      <Parameter Name="Money" Mode="In" Type="String" />
+      <Parameter Name="StorageID" Mode="In" Type="Int32" />
+      <Parameter Name="Moneytot" Mode="In" Type="String" />
+      <Parameter Name="UserID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="Addincome">
+      <Parameter Name="IncomeDate" Mode="In" Type="DateTime" />
+      <Parameter Name="IncomeValue" Mode="In" Type="String" />
+      <Parameter Name="UserID" Mode="In" Type="Int32" />
+      <Parameter Name="IncomeResourc" Mode="In" Type="String" />
+      <Parameter Name="Money" Mode="In" Type="String" />
+      <Parameter Name="StorageID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="AddNewProcedure">
+      <Parameter Name="StorageID" Mode="In" Type="Int32" />
+      <Parameter Name="ProcedureDate" Mode="In" Type="DateTime" />
+      <Parameter Name="ProcedureName" Mode="In" Type="String" />
+      <Parameter Name="UserID" Mode="In" Type="Int32" />
+      <Parameter Name="ProcedureValue" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="AddNewTransferItems">
+      <Parameter Name="ProductName" Mode="In" Type="String" />
+      <Parameter Name="ProductTypeID" Mode="In" Type="Int32" />
+      <Parameter Name="Exist" Mode="In" Type="Double" />
+      <Parameter Name="Price" Mode="In" Type="String" />
+      <Parameter Name="SalePrice1" Mode="In" Type="String" />
+      <Parameter Name="SalePrice2" Mode="In" Type="String" />
+      <Parameter Name="StoreID" Mode="In" Type="Int32" />
+      <Parameter Name="ProductID" Mode="InOut" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="AddNewUser">
+      <Parameter Name="Name" Mode="In" Type="String" />
+      <Parameter Name="UserName" Mode="In" Type="String" />
+      <Parameter Name="Password" Mode="In" Type="String" />
+      <Parameter Name="TelephoneNumber" Mode="In" Type="String" />
+      <Parameter Name="PositionID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="AddNoteToproviderPay">
+      <Parameter Name="ProviderID" Mode="In" Type="Int32" />
+      <Parameter Name="WeekDayID" Mode="In" Type="Int32" />
+      <Parameter Name="NoteMoney" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="AddProMovement">
+      <Parameter Name="MoveQuantity" Mode="In" Type="String" />
+      <Parameter Name="ProductID" Mode="In" Type="Int32" />
+      <Parameter Name="TemporaryID" Mode="In" Type="Int32" />
+      <Parameter Name="MoveDate" Mode="In" Type="DateTime" />
+      <Parameter Name="MoveValue" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="AddProProc">
+      <Parameter Name="ProDate" Mode="In" Type="DateTime" />
+      <Parameter Name="PRocName" Mode="In" Type="String" />
+      <Parameter Name="ProPaied" Mode="In" Type="String" />
+      <Parameter Name="ProviderID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="AddStorage">
+      <Parameter Name="StorageName" Mode="In" Type="String" />
+      <Parameter Name="TotalMoney" Mode="In" Type="String" />
+      <Parameter Name="StoreID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="AddStorageAction">
+      <Parameter Name="SActionID" Mode="In" Type="Int32" />
+      <Parameter Name="SPDate" Mode="In" Type="DateTime" />
+      <Parameter Name="SPMoney" Mode="In" Type="String" />
+      <Parameter Name="StorageID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="addTemporary">
+      <Parameter Name="TemporaryID" Mode="In" Type="Int32" />
+      <Parameter Name="TID" Mode="In" Type="String" />
+      <Parameter Name="TPrice" Mode="In" Type="String" />
+      <Parameter Name="TproName" Mode="In" Type="String" />
+      <Parameter Name="TProType" Mode="In" Type="String" />
+      <Parameter Name="TQuantity" Mode="In" Type="String" />
+      <Parameter Name="TSPrice" Mode="In" Type="String" />
+      <Parameter Name="TSPrise1" Mode="In" Type="String" />
+      <Parameter Name="TTotal" Mode="In" Type="String" />
+      <Parameter Name="TExsist" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="AddTransfer">
+      <Parameter Name="ProductID" Mode="In" Type="Int32" />
+      <Parameter Name="TransferBillID" Mode="In" Type="Int32" />
+      <Parameter Name="TransQuantity" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="addtransferbill">
+      <Parameter Name="StoreID" Mode="In" Type="Int32" />
+      <Parameter Name="StoreTo" Mode="In" Type="String" />
+      <Parameter Name="TransferDate" Mode="In" Type="DateTime" />
+      <Parameter Name="UserID" Mode="In" Type="Int32" />
+      <Parameter Name="TransferBillID" Mode="InOut" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="EditCustomers">
+      <Parameter Name="CustomerName" Mode="In" Type="String" />
+      <Parameter Name="CustomerCompany" Mode="In" Type="String" />
+      <Parameter Name="CustomerPhone" Mode="In" Type="String" />
+      <Parameter Name="Debit" Mode="In" Type="String" />
+      <Parameter Name="Credit" Mode="In" Type="String" />
+      <Parameter Name="CustomerID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="EditNoteBook">
+      <Parameter Name="WeekDayID" Mode="In" Type="Int32" />
+      <Parameter Name="NoteMoney" Mode="In" Type="String" />
+      <Parameter Name="ProviderID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="EditProviders">
+      <Parameter Name="CustomerName" Mode="In" Type="String" />
+      <Parameter Name="CustomerCompany" Mode="In" Type="String" />
+      <Parameter Name="CustomerPhone" Mode="In" Type="String" />
+      <Parameter Name="Debit" Mode="In" Type="String" />
+      <Parameter Name="Credit" Mode="In" Type="String" />
+      <Parameter Name="ProviderID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="InsertBackinbill">
+      <Parameter Name="BackInID" Mode="InOut" Type="Int32" />
+      <Parameter Name="CustomerID" Mode="In" Type="Int32" />
+      <Parameter Name="DateOfBackeIn" Mode="In" Type="DateTime" />
+      <Parameter Name="TotalPaybake" Mode="In" Type="String" />
+      <Parameter Name="UserID" Mode="In" Type="Int32" />
+      <Parameter Name="StoreID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="insertbackout">
+      <Parameter Name="BackoutID" Mode="InOut" Type="Int32" />
+      <Parameter Name="DateOfBackout" Mode="In" Type="DateTime" />
+      <Parameter Name="ProviderID" Mode="In" Type="Int32" />
+      <Parameter Name="TotalMony" Mode="In" Type="String" />
+      <Parameter Name="UserID" Mode="In" Type="Int32" />
+      <Parameter Name="StoreID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="InsertBill">
+      <Parameter Name="DateOfBill" Mode="In" Type="DateTime" />
+      <Parameter Name="ProviderID" Mode="In" Type="Int32" />
+      <Parameter Name="TotalPaid" Mode="In" Type="String" />
+      <Parameter Name="BillID" Mode="InOut" Type="Int32" />
+      <Parameter Name="UserID" Mode="In" Type="Int32" />
+      <Parameter Name="Paid" Mode="In" Type="String" />
+      <Parameter Name="StoreID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="InsertBillIn">
+      <Parameter Name="BackInID" Mode="In" Type="Int32" />
+      <Parameter Name="ProductID" Mode="In" Type="Int32" />
+      <Parameter Name="BackProNu" Mode="In" Type="String" />
+      <Parameter Name="InPrice" Mode="In" Type="String" />
+      <Parameter Name="InTotal" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="InsertBuyBill">
+      <Parameter Name="StoreID" Mode="In" Type="Int32" />
+      <Parameter Name="Exist" Mode="In" Type="Double" />
+      <Parameter Name="Price" Mode="In" Type="String" />
+      <Parameter Name="SalePrice1" Mode="In" Type="String" />
+      <Parameter Name="SalePrice2" Mode="In" Type="String" />
+      <Parameter Name="BillID" Mode="In" Type="Int32" />
+      <Parameter Name="ProductName" Mode="In" Type="String" />
+      <Parameter Name="ProductTypeID" Mode="InOut" Type="Int32" />
+      <Parameter Name="ProductType" Mode="In" Type="String" />
+      <Parameter Name="Minimum" Mode="In" Type="String" />
+      <Parameter Name="ProductID" Mode="InOut" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="InsertNewItemName">
+      <Parameter Name="ProductName" Mode="In" Type="String" />
+      <Parameter Name="ProductTypeID" Mode="In" Type="Int32" />
+      <Parameter Name="BillID" Mode="In" Type="Int32" />
+      <Parameter Name="Exist" Mode="In" Type="Double" />
+      <Parameter Name="Price" Mode="In" Type="String" />
+      <Parameter Name="SalePrice1" Mode="In" Type="String" />
+      <Parameter Name="SalePrice2" Mode="In" Type="String" />
+      <Parameter Name="StoreID" Mode="In" Type="Int32" />
+      <Parameter Name="ProductID" Mode="InOut" Type="Int32" />
+      <Parameter Name="Minimum" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="InsertProvier">
+      <Parameter Name="ProviderName" Mode="In" Type="String" />
+      <Parameter Name="TelephoneNumber" Mode="In" Type="String" />
+      <Parameter Name="CompanyName" Mode="In" Type="String" />
+      <Parameter Name="ProviderID" Mode="InOut" Type="Int32" />
+      <Parameter Name="Credit" Mode="In" Type="String" />
+      <Parameter Name="Debit" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="InsertPurchases">
+      <Parameter Name="BillID" Mode="In" Type="Int32" />
+      <Parameter Name="ProductID" Mode="In" Type="Int32" />
+      <Parameter Name="ProductTypeID" Mode="In" Type="Int32" />
+      <Parameter Name="Quantity" Mode="In" Type="String" />
+      <Parameter Name="BPrice" Mode="In" Type="String" />
+      <Parameter Name="BTatol" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="InsertRepaySales">
+      <Parameter Name="CustomerID" Mode="In" Type="Int32" />
+      <Parameter Name="DateOfPay" Mode="In" Type="DateTime" />
+      <Parameter Name="TotalMoneyPaied" Mode="In" Type="String" />
+      <Parameter Name="Debit" Mode="In" Type="String" />
+      <Parameter Name="UserID" Mode="In" Type="Int32" />
+      <Parameter Name="StorageID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="insertsale">
+      <Parameter Name="ProductID" Mode="In" Type="Int32" />
+      <Parameter Name="ProductTypeID" Mode="In" Type="Int32" />
+      <Parameter Name="SaleBillID" Mode="In" Type="Int32" />
+      <Parameter Name="Quantity" Mode="In" Type="String" />
+      <Parameter Name="Price" Mode="In" Type="String" />
+      <Parameter Name="BTotal" Mode="In" Type="String" />
+      <Parameter Name="SNotes" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="InsertSaleBill">
+      <Parameter Name="SaleBillID" Mode="InOut" Type="Int32" />
+      <Parameter Name="BillDate" Mode="In" Type="DateTime" />
+      <Parameter Name="CustomerID" Mode="In" Type="Int32" />
+      <Parameter Name="Total" Mode="In" Type="String" />
+      <Parameter Name="UserID" Mode="In" Type="Int32" />
+      <Parameter Name="Paid" Mode="In" Type="String" />
+      <Parameter Name="Earn" Mode="In" Type="String" />
+      <Parameter Name="Discount" Mode="In" Type="String" />
+      <Parameter Name="StoreID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="RepayForProvidier">
+      <Parameter Name="ProviderID" Mode="In" Type="Int32" />
+      <Parameter Name="TotalMoney" Mode="In" Type="String" />
+      <Parameter Name="PaiedDate" Mode="In" Type="DateTime" />
+      <Parameter Name="Credit" Mode="In" Type="String" />
+      <Parameter Name="UserID" Mode="In" Type="Int32" />
+      <Parameter Name="StorageID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_alterdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_creatediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_dropdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagramdefinition">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagrams">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_renamediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="new_diagramname" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_upgraddiagrams" />
+    <FunctionImport Name="UpdateBuyBill">
+      <Parameter Name="BillID" Mode="In" Type="Int32" />
+      <Parameter Name="Exist" Mode="In" Type="Double" />
+      <Parameter Name="Price" Mode="In" Type="String" />
+      <Parameter Name="SalePrice1" Mode="In" Type="String" />
+      <Parameter Name="SalePrice2" Mode="In" Type="String" />
+      <Parameter Name="Minimum" Mode="In" Type="String" />
+      <Parameter Name="ProductID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="Updateproductsinfo">
+      <Parameter Name="ProductName" Mode="In" Type="String" />
+      <Parameter Name="Price" Mode="In" Type="String" />
+      <Parameter Name="SalePrice1" Mode="In" Type="String" />
+      <Parameter Name="SalePrice2" Mode="In" Type="String" />
+      <Parameter Name="Exist" Mode="In" Type="Int32" />
+      <Parameter Name="Minimum" Mode="In" Type="String" />
+      <Parameter Name="StoreID" Mode="In" Type="Int32" />
+      <Parameter Name="ProductID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="UpdateStorage">
+      <Parameter Name="StorageName" Mode="In" Type="String" />
+      <Parameter Name="TotalMoney" Mode="In" Type="String" />
+      <Parameter Name="StoreID" Mode="In" Type="Int32" />
+      <Parameter Name="StorageID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="UpdateTransfer">
+      <Parameter Name="Exist" Mode="In" Type="Int32" />
+      <Parameter Name="Price" Mode="In" Type="String" />
+      <Parameter Name="SalePrice1" Mode="In" Type="String" />
+      <Parameter Name="SalePrice2" Mode="In" Type="String" />
+      <Parameter Name="ProductID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="UpdteUser">
+      <Parameter Name="Name" Mode="In" Type="String" />
+      <Parameter Name="UserName" Mode="In" Type="String" />
+      <Parameter Name="Password" Mode="In" Type="String" />
+      <Parameter Name="TelephoneNumber" Mode="In" Type="String" />
+      <Parameter Name="PositionID" Mode="In" Type="Int32" />
+      <Parameter Name="UserID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <EntitySet Name="sysdiagrams" EntityType="AccountingModel.sysdiagram" />
+    <EntitySet Name="TblBackIns" EntityType="AccountingModel.TblBackIn" />
+    <EntitySet Name="TblBackInBills" EntityType="AccountingModel.TblBackInBill" />
+    <EntitySet Name="TblBackOuts" EntityType="AccountingModel.TblBackOut" />
+    <EntitySet Name="TblBackOutBills" EntityType="AccountingModel.TblBackOutBill" />
+    <EntitySet Name="TblBills" EntityType="AccountingModel.TblBill" />
+    <EntitySet Name="TblCorrupteds" EntityType="AccountingModel.TblCorrupted" />
+    <EntitySet Name="TblCorruptedBills" EntityType="AccountingModel.TblCorruptedBill" />
+    <EntitySet Name="TblCusPros" EntityType="AccountingModel.TblCusPro" />
+    <EntitySet Name="TblCustomers" EntityType="AccountingModel.TblCustomer" />
+    <EntitySet Name="TblEmployesses" EntityType="AccountingModel.TblEmployess" />
+    <EntitySet Name="TblExpenses" EntityType="AccountingModel.TblExpens" />
+    <EntitySet Name="TblIncomes" EntityType="AccountingModel.TblIncome" />
+    <EntitySet Name="TblLogs" EntityType="AccountingModel.TblLog" />
+    <EntitySet Name="TblNoteBooks" EntityType="AccountingModel.TblNoteBook" />
+    <EntitySet Name="TblPositions" EntityType="AccountingModel.TblPosition" />
+    <EntitySet Name="TblProcedures" EntityType="AccountingModel.TblProcedure" />
+    <EntitySet Name="TblProducts" EntityType="AccountingModel.TblProduct" />
+    <EntitySet Name="TblProductsMovements" EntityType="AccountingModel.TblProductsMovement" />
+    <EntitySet Name="TblProductTypes" EntityType="AccountingModel.TblProductType" />
+    <EntitySet Name="TblProProcs" EntityType="AccountingModel.TblProProc" />
+    <EntitySet Name="TblProviders" EntityType="AccountingModel.TblProvider" />
+    <EntitySet Name="TblPurchases" EntityType="AccountingModel.TblPurchas" />
+    <EntitySet Name="TblRepayDebts" EntityType="AccountingModel.TblRepayDebt" />
+    <EntitySet Name="TblRepaySales" EntityType="AccountingModel.TblRepaySale" />
+    <EntitySet Name="TblSaleBills" EntityType="AccountingModel.TblSaleBill" />
+    <EntitySet Name="TblSales" EntityType="AccountingModel.TblSale" />
+    <EntitySet Name="TblStorageActions" EntityType="AccountingModel.TblStorageAction" />
+    <EntitySet Name="TblStorageProces" EntityType="AccountingModel.TblStorageProce" />
+    <EntitySet Name="TblStorages" EntityType="AccountingModel.TblStorage" />
+    <EntitySet Name="TblStores" EntityType="AccountingModel.TblStore" />
+    <EntitySet Name="TblTemps" EntityType="AccountingModel.TblTemp" />
+    <EntitySet Name="TblTemporaries" EntityType="AccountingModel.TblTemporary" />
+    <EntitySet Name="TblTemporaryTypes" EntityType="AccountingModel.TblTemporaryType" />
+    <EntitySet Name="TblTransfers" EntityType="AccountingModel.TblTransfer" />
+    <EntitySet Name="TblTransferBills" EntityType="AccountingModel.TblTransferBill" />
+    <EntitySet Name="TblUnits" EntityType="AccountingModel.TblUnit" />
+    <EntitySet Name="TblUsers" EntityType="AccountingModel.TblUser" />
+    <EntitySet Name="TblWeeks" EntityType="AccountingModel.TblWeek" />
+    <AssociationSet Name="FK_TblBackIn_TblStore" Association="AccountingModel.FK_TblBackIn_TblStore">
+      <End Role="TblStore" EntitySet="TblStores" />
+      <End Role="TblBackIn" EntitySet="TblBackIns" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TblBackIn_TblUsers" Association="AccountingModel.FK_TblBackIn_TblUsers">
+      <End Role="TblUser" EntitySet="TblUsers" />
+      <End Role="TblBackIn" EntitySet="TblBackIns" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TblBackInBill_TblBackIn" Association="AccountingModel.FK_TblBackInBill_TblBackIn">
+      <End Role="TblBackIn" EntitySet="TblBackIns" />
+      <End Role="TblBackInBill" EntitySet="TblBackInBills" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TblBackInBill_TblProducts" Association="AccountingModel.FK_TblBackInBill_TblProducts">
+      <End Role="TblProduct" EntitySet="TblProducts" />
+      <End Role="TblBackInBill" EntitySet="TblBackInBills" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TblBackOut_TblProviders" Association="AccountingModel.FK_TblBackOut_TblProviders">
+      <End Role="TblProvider" EntitySet="TblProviders" />
+      <End Role="TblBackOut" EntitySet="TblBackOuts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TblBackOut_TblStore" Association="AccountingModel.FK_TblBackOut_TblStore">
+      <End Role="TblStore" EntitySet="TblStores" />
+      <End Role="TblBackOut" EntitySet="TblBackOuts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TblBackOut_TblUsers" Association="AccountingModel.FK_TblBackOut_TblUsers">
+      <End Role="TblUser" EntitySet="TblUsers" />
+      <End Role="TblBackOut" EntitySet="TblBackOuts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TblBackOutBills_TblBackOut" Association="AccountingModel.FK_TblBackOutBills_TblBackOut">
+      <End Role="TblBackOut" EntitySet="TblBackOuts" />
+      <End Role="TblBackOutBill" EntitySet="TblBackOutBills" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TblBackOutBills_TblProducts" Association="AccountingModel.FK_TblBackOutBills_TblProducts">
+      <End Role="TblProduct" EntitySet="TblProducts" />
+      <End Role="TblBackOutBill" EntitySet="TblBackOutBills" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TblBills_TblProviders" Association="AccountingModel.FK_TblBills_TblProviders">
+      <End Role="TblProvider" EntitySet="TblProviders" />
+      <End Role="TblBill" EntitySet="TblBills" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TblBills_TblStore" Association="AccountingModel.FK_TblBills_TblStore">
+      <End Role="TblStore" EntitySet="TblStores" />
+      <End Role="TblBill" EntitySet="TblBills" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TblBills_TblUsers" Association="AccountingModel.FK_TblBills_TblUsers">
+      <End Role="TblUser" EntitySet="TblUsers" />
+      <End Role="TblBill" EntitySet="TblBills" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TblBills_TblUsers1" Association="AccountingModel.FK_TblBills_TblUsers1">
+      <End Role="TblUser" EntitySet="TblUsers" />
+      <End Role="TblBill" EntitySet="TblBills" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TblProducts_TblBills" Association="AccountingModel.FK_TblProducts_TblBills">
+      <End Role="TblBill" EntitySet="TblBills" />
+      <End Role="TblProduct" EntitySet="TblProducts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TblProducts_TblBills1" Association="AccountingModel.FK_TblProducts_TblBills1">
+      <End Role="TblBill" EntitySet="TblBills" />
+      <End Role="TblProduct" EntitySet="TblProducts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TblPurchases_TblBills" Association="AccountingModel.FK_TblPurchases_TblBills">
+      <End Role="TblBill" EntitySet="TblBills" />
+      <End Role="TblPurchas" EntitySet="TblPurchases" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TblCorrupted_TblStore" Association="AccountingModel.FK_TblCorrupted_TblStore">
+      <End Role="TblStore" EntitySet="TblStores" />
+      <End Role="TblCorrupted" EntitySet="TblCorrupteds" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TblCorrupted_TblUsers" Association="AccountingModel.FK_TblCorrupted_TblUsers">
+      <End Role="TblUser" EntitySet="TblUsers" />
+      <End Role="TblCorrupted" EntitySet="TblCorrupteds" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TblCorruptedBills_TblCorrupted" Association="AccountingModel.FK_TblCorruptedBills_TblCorrupted">
+      <End Role="TblCorrupted" EntitySet="TblCorrupteds" />
+      <End Role="TblCorruptedBill" EntitySet="TblCorruptedBills" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TblCorruptedBills_TblProducts" Association="AccountingModel.FK_TblCorruptedBills_TblProducts">
+      <End Role="TblProduct" EntitySet="TblProducts" />
+      <End Role="TblCorruptedBill" EntitySet="TblCorruptedBills" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TblCusPros_TblCustomers" Association="AccountingModel.FK_TblCusPros_TblCustomers">
+      <End Role="TblCustomer" EntitySet="TblCustomers" />
+      <End Role="TblCusPro" EntitySet="TblCusPros" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TblRepaySales_TblCustomers" Association="AccountingModel.FK_TblRepaySales_TblCustomers">
+      <End Role="TblCustomer" EntitySet="TblCustomers" />
+      <End Role="TblRepaySale" EntitySet="TblRepaySales" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TblSaleBills_TblCustomers" Association="AccountingModel.FK_TblSaleBills_TblCustomers">
+      <End Role="TblCustomer" EntitySet="TblCustomers" />
+      <End Role="TblSaleBill" EntitySet="TblSaleBills" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TblExpenses_TblStorages" Association="AccountingModel.FK_TblExpenses_TblStorages">
+      <End Role="TblStorage" EntitySet="TblStorages" />
+      <End Role="TblExpens" EntitySet="TblExpenses" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TblExpenses_TblUsers" Association="AccountingModel.FK_TblExpenses_TblUsers">
+      <End Role="TblUser" EntitySet="TblUsers" />
+      <End Role="TblExpens" EntitySet="TblExpenses" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TblIncome_TblStorages" Association="AccountingModel.FK_TblIncome_TblStorages">
+      <End Role="TblStorage" EntitySet="TblStorages" />
+      <End Role="TblIncome" EntitySet="TblIncomes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TblIncome_TblUsers" Association="AccountingModel.FK_TblIncome_TblUsers">
+      <End Role="TblUser" EntitySet="TblUsers" />
+      <End Role="TblIncome" EntitySet="TblIncomes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TblLogs_TblUsers" Association="AccountingModel.FK_TblLogs_TblUsers">
+      <End Role="TblUser" EntitySet="TblUsers" />
+      <End Role="TblLog" EntitySet="TblLogs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TblNoteBook_TblProviders" Association="AccountingModel.FK_TblNoteBook_TblProviders">
+      <End Role="TblProvider" EntitySet="TblProviders" />
+      <End Role="TblNoteBook" EntitySet="TblNoteBooks" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TblNoteBook_TblWeek" Association="AccountingModel.FK_TblNoteBook_TblWeek">
+      <End Role="TblWeek" EntitySet="TblWeeks" />
+      <End Role="TblNoteBook" EntitySet="TblNoteBooks" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TblUsers_TblPosition" Association="AccountingModel.FK_TblUsers_TblPosition">
+      <End Role="TblPosition" EntitySet="TblPositions" />
+      <End Role="TblUser" EntitySet="TblUsers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TblProcedure_TblStorages" Association="AccountingModel.FK_TblProcedure_TblStorages">
+      <End Role="TblStorage" EntitySet="TblStorages" />
+      <End Role="TblProcedure" EntitySet="TblProcedures" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TblProcedure_TblUsers" Association="AccountingModel.FK_TblProcedure_TblUsers">
+      <End Role="TblUser" EntitySet="TblUsers" />
+      <End Role="TblProcedure" EntitySet="TblProcedures" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TblProducts_TblProductType" Association="AccountingModel.FK_TblProducts_TblProductType">
+      <End Role="TblProductType" EntitySet="TblProductTypes" />
+      <End Role="TblProduct" EntitySet="TblProducts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TblProducts_TblStore" Association="AccountingModel.FK_TblProducts_TblStore">
+      <End Role="TblStore" EntitySet="TblStores" />
+      <End Role="TblProduct" EntitySet="TblProducts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TblProductsMovements_TblProducts" Association="AccountingModel.FK_TblProductsMovements_TblProducts">
+      <End Role="TblProduct" EntitySet="TblProducts" />
+      <End Role="TblProductsMovement" EntitySet="TblProductsMovements" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TblPurchases_TblProducts" Association="AccountingModel.FK_TblPurchases_TblProducts">
+      <End Role="TblProduct" EntitySet="TblProducts" />
+      <End Role="TblPurchas" EntitySet="TblPurchases" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TblSales_TblProducts" Association="AccountingModel.FK_TblSales_TblProducts">
+      <End Role="TblProduct" EntitySet="TblProducts" />
+      <End Role="TblSale" EntitySet="TblSales" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TblTransfer_TblProducts" Association="AccountingModel.FK_TblTransfer_TblProducts">
+      <End Role="TblProduct" EntitySet="TblProducts" />
+      <End Role="TblTransfer" EntitySet="TblTransfers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TblProductsMovements_TblTemporaryType" Association="AccountingModel.FK_TblProductsMovements_TblTemporaryType">
+      <End Role="TblTemporaryType" EntitySet="TblTemporaryTypes" />
+      <End Role="TblProductsMovement" EntitySet="TblProductsMovements" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TblPurchases_TblProductType" Association="AccountingModel.FK_TblPurchases_TblProductType">
+      <End Role="TblProductType" EntitySet="TblProductTypes" />
+      <End Role="TblPurchas" EntitySet="TblPurchases" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TblSales_TblProductType" Association="AccountingModel.FK_TblSales_TblProductType">
+      <End Role="TblProductType" EntitySet="TblProductTypes" />
+      <End Role="TblSale" EntitySet="TblSales" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TblProProc_TblProviders" Association="AccountingModel.FK_TblProProc_TblProviders">
+      <End Role="TblProvider" EntitySet="TblProviders" />
+      <End Role="TblProProc" EntitySet="TblProProcs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TblRepayDebt_TblStorages" Association="AccountingModel.FK_TblRepayDebt_TblStorages">
+      <End Role="TblStorage" EntitySet="TblStorages" />
+      <End Role="TblRepayDebt" EntitySet="TblRepayDebts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TblRepayDebt_TblUsers" Association="AccountingModel.FK_TblRepayDebt_TblUsers">
+      <End Role="TblUser" EntitySet="TblUsers" />
+      <End Role="TblRepayDebt" EntitySet="TblRepayDebts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TblRepaySales_TblStorages" Association="AccountingModel.FK_TblRepaySales_TblStorages">
+      <End Role="TblStorage" EntitySet="TblStorages" />
+      <End Role="TblRepaySale" EntitySet="TblRepaySales" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TblRepaySales_TblUsers" Association="AccountingModel.FK_TblRepaySales_TblUsers">
+      <End Role="TblUser" EntitySet="TblUsers" />
+      <End Role="TblRepaySale" EntitySet="TblRepaySales" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TblSaleBills_TblStore" Association="AccountingModel.FK_TblSaleBills_TblStore">
+      <End Role="TblStore" EntitySet="TblStores" />
+      <End Role="TblSaleBill" EntitySet="TblSaleBills" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TblSaleBills_TblUsers" Association="AccountingModel.FK_TblSaleBills_TblUsers">
+      <End Role="TblUser" EntitySet="TblUsers" />
+      <End Role="TblSaleBill" EntitySet="TblSaleBills" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TblSales_TblSaleBills" Association="AccountingModel.FK_TblSales_TblSaleBills">
+      <End Role="TblSaleBill" EntitySet="TblSaleBills" />
+      <End Role="TblSale" EntitySet="TblSales" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TblStorageProces_TblStorageActions" Association="AccountingModel.FK_TblStorageProces_TblStorageActions">
+      <End Role="TblStorageAction" EntitySet="TblStorageActions" />
+      <End Role="TblStorageProce" EntitySet="TblStorageProces" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TblStorageProces_TblStorages" Association="AccountingModel.FK_TblStorageProces_TblStorages">
+      <End Role="TblStorage" EntitySet="TblStorages" />
+      <End Role="TblStorageProce" EntitySet="TblStorageProces" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TblStorages_TblStore" Association="AccountingModel.FK_TblStorages_TblStore">
+      <End Role="TblStore" EntitySet="TblStores" />
+      <End Role="TblStorage" EntitySet="TblStorages" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TblTransferBill_TblStore" Association="AccountingModel.FK_TblTransferBill_TblStore">
+      <End Role="TblStore" EntitySet="TblStores" />
+      <End Role="TblTransferBill" EntitySet="TblTransferBills" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TblTemp_TblUsers" Association="AccountingModel.FK_TblTemp_TblUsers">
+      <End Role="TblUser" EntitySet="TblUsers" />
+      <End Role="TblTemp" EntitySet="TblTemps" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TblTemporary_TblTemporaryType" Association="AccountingModel.FK_TblTemporary_TblTemporaryType">
+      <End Role="TblTemporaryType" EntitySet="TblTemporaryTypes" />
+      <End Role="TblTemporary" EntitySet="TblTemporaries" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TblTransfer_TblTransferBill" Association="AccountingModel.FK_TblTransfer_TblTransferBill">
+      <End Role="TblTransferBill" EntitySet="TblTransferBills" />
+      <End Role="TblTransfer" EntitySet="TblTransfers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TblTransferBill_TblUsers" Association="AccountingModel.FK_TblTransferBill_TblUsers">
+      <End Role="TblUser" EntitySet="TblUsers" />
+      <End Role="TblTransferBill" EntitySet="TblTransferBills" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TblUnits_TblUnits" Association="AccountingModel.FK_TblUnits_TblUnits">
+      <End Role="TblUnit" EntitySet="TblUnits" />
+      <End Role="TblUnit1" EntitySet="TblUnits" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="TblBackIn">
+    <Key>
+      <PropertyRef Name="BackInID" />
+    </Key>
+    <Property Name="BackInID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DateOfBackeIn" Type="DateTime" Precision="0" />
+    <Property Name="UserID" Type="Int32" />
+    <Property Name="CustomerID" Type="Int32" />
+    <Property Name="TotalPaybake" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="StoreID" Type="Int32" />
+    <NavigationProperty Name="TblStore" Relationship="AccountingModel.FK_TblBackIn_TblStore" FromRole="TblBackIn" ToRole="TblStore" />
+    <NavigationProperty Name="TblUser" Relationship="AccountingModel.FK_TblBackIn_TblUsers" FromRole="TblBackIn" ToRole="TblUser" />
+    <NavigationProperty Name="TblBackInBills" Relationship="AccountingModel.FK_TblBackInBill_TblBackIn" FromRole="TblBackIn" ToRole="TblBackInBill" />
+  </EntityType>
+  <EntityType Name="TblBackInBill">
+    <Key>
+      <PropertyRef Name="BackInBillID" />
+    </Key>
+    <Property Name="BackInBillID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="BackInID" Type="Int32" />
+    <Property Name="ProductID" Type="Int32" />
+    <Property Name="BackProNu" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="InPrice" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="InTotal" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="TblBackIn" Relationship="AccountingModel.FK_TblBackInBill_TblBackIn" FromRole="TblBackInBill" ToRole="TblBackIn" />
+    <NavigationProperty Name="TblProduct" Relationship="AccountingModel.FK_TblBackInBill_TblProducts" FromRole="TblBackInBill" ToRole="TblProduct" />
+  </EntityType>
+  <EntityType Name="TblBackOut">
+    <Key>
+      <PropertyRef Name="BackoutID" />
+    </Key>
+    <Property Name="BackoutID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DateOfBackout" Type="DateTime" Precision="0" />
+    <Property Name="TotalMony" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="UserID" Type="Int32" />
+    <Property Name="ProviderID" Type="Int32" />
+    <Property Name="StoreID" Type="Int32" />
+    <NavigationProperty Name="TblProvider" Relationship="AccountingModel.FK_TblBackOut_TblProviders" FromRole="TblBackOut" ToRole="TblProvider" />
+    <NavigationProperty Name="TblStore" Relationship="AccountingModel.FK_TblBackOut_TblStore" FromRole="TblBackOut" ToRole="TblStore" />
+    <NavigationProperty Name="TblUser" Relationship="AccountingModel.FK_TblBackOut_TblUsers" FromRole="TblBackOut" ToRole="TblUser" />
+    <NavigationProperty Name="TblBackOutBills" Relationship="AccountingModel.FK_TblBackOutBills_TblBackOut" FromRole="TblBackOut" ToRole="TblBackOutBill" />
+  </EntityType>
+  <EntityType Name="TblBackOutBill">
+    <Key>
+      <PropertyRef Name="BackOutBillID" />
+    </Key>
+    <Property Name="BackOutBillID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="BackoutID" Type="Int32" />
+    <Property Name="ProductID" Type="Int32" />
+    <Property Name="OutProdNum" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="OutPrice" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="OutTotal" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="TblBackOut" Relationship="AccountingModel.FK_TblBackOutBills_TblBackOut" FromRole="TblBackOutBill" ToRole="TblBackOut" />
+    <NavigationProperty Name="TblProduct" Relationship="AccountingModel.FK_TblBackOutBills_TblProducts" FromRole="TblBackOutBill" ToRole="TblProduct" />
+  </EntityType>
+  <EntityType Name="TblBill">
+    <Key>
+      <PropertyRef Name="BillID" />
+    </Key>
+    <Property Name="BillID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DateOfBill" Type="DateTime" Precision="3" />
+    <Property Name="ProviderID" Type="Int32" />
+    <Property Name="TotalPaid" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="UserID" Type="Int32" />
+    <Property Name="Paid" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="StoreID" Type="Int32" />
+    <NavigationProperty Name="TblProvider" Relationship="AccountingModel.FK_TblBills_TblProviders" FromRole="TblBill" ToRole="TblProvider" />
+    <NavigationProperty Name="TblStore" Relationship="AccountingModel.FK_TblBills_TblStore" FromRole="TblBill" ToRole="TblStore" />
+    <NavigationProperty Name="TblUser" Relationship="AccountingModel.FK_TblBills_TblUsers" FromRole="TblBill" ToRole="TblUser" />
+    <NavigationProperty Name="TblUser1" Relationship="AccountingModel.FK_TblBills_TblUsers1" FromRole="TblBill" ToRole="TblUser" />
+    <NavigationProperty Name="TblProducts" Relationship="AccountingModel.FK_TblProducts_TblBills" FromRole="TblBill" ToRole="TblProduct" />
+    <NavigationProperty Name="TblProducts1" Relationship="AccountingModel.FK_TblProducts_TblBills1" FromRole="TblBill" ToRole="TblProduct" />
+    <NavigationProperty Name="TblPurchases" Relationship="AccountingModel.FK_TblPurchases_TblBills" FromRole="TblBill" ToRole="TblPurchas" />
+  </EntityType>
+  <EntityType Name="TblCorrupted">
+    <Key>
+      <PropertyRef Name="CorruptedID" />
+    </Key>
+    <Property Name="CorruptedID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DateOfbill" Type="DateTime" Precision="3" />
+    <Property Name="UserID" Type="Int32" />
+    <Property Name="CorruptedLost" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="StoreID" Type="Int32" />
+    <NavigationProperty Name="TblStore" Relationship="AccountingModel.FK_TblCorrupted_TblStore" FromRole="TblCorrupted" ToRole="TblStore" />
+    <NavigationProperty Name="TblUser" Relationship="AccountingModel.FK_TblCorrupted_TblUsers" FromRole="TblCorrupted" ToRole="TblUser" />
+    <NavigationProperty Name="TblCorruptedBills" Relationship="AccountingModel.FK_TblCorruptedBills_TblCorrupted" FromRole="TblCorrupted" ToRole="TblCorruptedBill" />
+  </EntityType>
+  <EntityType Name="TblCorruptedBill">
+    <Key>
+      <PropertyRef Name="CorruptedBillID" />
+    </Key>
+    <Property Name="CorruptedBillID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CorruptedID" Type="Int32" />
+    <Property Name="ProductID" Type="Int32" />
+    <Property Name="CorruptedNum" Type="String" MaxLength="7" FixedLength="false" Unicode="true" />
+    <Property Name="CoMoney" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="TblCorrupted" Relationship="AccountingModel.FK_TblCorruptedBills_TblCorrupted" FromRole="TblCorruptedBill" ToRole="TblCorrupted" />
+    <NavigationProperty Name="TblProduct" Relationship="AccountingModel.FK_TblCorruptedBills_TblProducts" FromRole="TblCorruptedBill" ToRole="TblProduct" />
+  </EntityType>
+  <EntityType Name="TblCusPro">
+    <Key>
+      <PropertyRef Name="ReporttID" />
+    </Key>
+    <Property Name="ReporttID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CustomerID" Type="Int32" />
+    <Property Name="DateOfProc" Type="DateTime" Precision="3" />
+    <Property Name="PayedValue" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ProcName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="TblCustomer" Relationship="AccountingModel.FK_TblCusPros_TblCustomers" FromRole="TblCusPro" ToRole="TblCustomer" />
+  </EntityType>
+  <EntityType Name="TblCustomer">
+    <Key>
+      <PropertyRef Name="CustomerID" />
+    </Key>
+    <Property Name="CustomerID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CustomerName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="CustomerPhone" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CustomerCompany" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Credit" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Debit" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="TblCusPros" Relationship="AccountingModel.FK_TblCusPros_TblCustomers" FromRole="TblCustomer" ToRole="TblCusPro" />
+    <NavigationProperty Name="TblRepaySales" Relationship="AccountingModel.FK_TblRepaySales_TblCustomers" FromRole="TblCustomer" ToRole="TblRepaySale" />
+    <NavigationProperty Name="TblSaleBills" Relationship="AccountingModel.FK_TblSaleBills_TblCustomers" FromRole="TblCustomer" ToRole="TblSaleBill" />
+  </EntityType>
+  <EntityType Name="TblEmployess">
+    <Key>
+      <PropertyRef Name="EmployeeID" />
+    </Key>
+    <Property Name="EmployeeID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Phone" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Salary" Type="Double" />
+    <Property Name="Debit" Type="Double" />
+    <Property Name="Credit" Type="Double" />
+    <Property Name="ISActive" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="TblExpens">
+    <Key>
+      <PropertyRef Name="ExpensesID" />
+    </Key>
+    <Property Name="ExpensesID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ExpensesDate" Type="DateTime" Precision="3" />
+    <Property Name="ExpensesReason" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Money" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="UserID" Type="Int32" />
+    <Property Name="StorageID" Type="Int32" />
+    <NavigationProperty Name="TblStorage" Relationship="AccountingModel.FK_TblExpenses_TblStorages" FromRole="TblExpens" ToRole="TblStorage" />
+    <NavigationProperty Name="TblUser" Relationship="AccountingModel.FK_TblExpenses_TblUsers" FromRole="TblExpens" ToRole="TblUser" />
+  </EntityType>
+  <EntityType Name="TblIncome">
+    <Key>
+      <PropertyRef Name="IncomeID" />
+    </Key>
+    <Property Name="IncomeID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IncomeValue" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="IncomeDate" Type="DateTime" Precision="0" />
+    <Property Name="UserID" Type="Int32" />
+    <Property Name="IncomeResourc" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="StorageID" Type="Int32" />
+    <NavigationProperty Name="TblStorage" Relationship="AccountingModel.FK_TblIncome_TblStorages" FromRole="TblIncome" ToRole="TblStorage" />
+    <NavigationProperty Name="TblUser" Relationship="AccountingModel.FK_TblIncome_TblUsers" FromRole="TblIncome" ToRole="TblUser" />
+  </EntityType>
+  <EntityType Name="TblLog">
+    <Key>
+      <PropertyRef Name="LogID" />
+    </Key>
+    <Property Name="LogID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserID" Type="Int32" />
+    <Property Name="Discription" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="DateOfLog" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="TblUser" Relationship="AccountingModel.FK_TblLogs_TblUsers" FromRole="TblLog" ToRole="TblUser" />
+  </EntityType>
+  <EntityType Name="TblNoteBook">
+    <Key>
+      <PropertyRef Name="NoteID" />
+    </Key>
+    <Property Name="NoteID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="WeekDayID" Type="Int32" />
+    <Property Name="ProviderID" Type="Int32" />
+    <Property Name="NoteMoney" Type="String" MaxLength="6" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="TblProvider" Relationship="AccountingModel.FK_TblNoteBook_TblProviders" FromRole="TblNoteBook" ToRole="TblProvider" />
+    <NavigationProperty Name="TblWeek" Relationship="AccountingModel.FK_TblNoteBook_TblWeek" FromRole="TblNoteBook" ToRole="TblWeek" />
+  </EntityType>
+  <EntityType Name="TblPosition">
+    <Key>
+      <PropertyRef Name="PositionID" />
+    </Key>
+    <Property Name="PositionID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PositionName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="TblUsers" Relationship="AccountingModel.FK_TblUsers_TblPosition" FromRole="TblPosition" ToRole="TblUser" />
+  </EntityType>
+  <EntityType Name="TblProcedure">
+    <Key>
+      <PropertyRef Name="ProcedureID" />
+    </Key>
+    <Property Name="ProcedureID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProcedureName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="ProcedureValue" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ProcedureDate" Type="DateTime" Precision="0" />
+    <Property Name="UserID" Type="Int32" />
+    <Property Name="StorageID" Type="Int32" />
+    <NavigationProperty Name="TblStorage" Relationship="AccountingModel.FK_TblProcedure_TblStorages" FromRole="TblProcedure" ToRole="TblStorage" />
+    <NavigationProperty Name="TblUser" Relationship="AccountingModel.FK_TblProcedure_TblUsers" FromRole="TblProcedure" ToRole="TblUser" />
+  </EntityType>
+  <EntityType Name="TblProduct">
+    <Key>
+      <PropertyRef Name="ProductID" />
+    </Key>
+    <Property Name="ProductID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="ProductTypeID" Type="Int32" />
+    <Property Name="Price" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="StoreID" Type="Int32" />
+    <Property Name="SalePrice1" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SalePrice2" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Exist" Type="Double" />
+    <Property Name="Barcode" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="BillID" Type="Int32" />
+    <Property Name="Minimum" Type="String" MaxLength="6" FixedLength="false" Unicode="true" />
+    <Property Name="ISUnit" Type="Boolean" />
+    <Property Name="QuntAll" Type="Double" />
+    <Property Name="Serial" Type="Int64" />
+    <Property Name="BigUnitBarcode" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="UnitID" Type="Int32" />
+    <NavigationProperty Name="TblBackInBills" Relationship="AccountingModel.FK_TblBackInBill_TblProducts" FromRole="TblProduct" ToRole="TblBackInBill" />
+    <NavigationProperty Name="TblBackOutBills" Relationship="AccountingModel.FK_TblBackOutBills_TblProducts" FromRole="TblProduct" ToRole="TblBackOutBill" />
+    <NavigationProperty Name="TblBill" Relationship="AccountingModel.FK_TblProducts_TblBills" FromRole="TblProduct" ToRole="TblBill" />
+    <NavigationProperty Name="TblBill1" Relationship="AccountingModel.FK_TblProducts_TblBills1" FromRole="TblProduct" ToRole="TblBill" />
+    <NavigationProperty Name="TblCorruptedBills" Relationship="AccountingModel.FK_TblCorruptedBills_TblProducts" FromRole="TblProduct" ToRole="TblCorruptedBill" />
+    <NavigationProperty Name="TblProductType" Relationship="AccountingModel.FK_TblProducts_TblProductType" FromRole="TblProduct" ToRole="TblProductType" />
+    <NavigationProperty Name="TblStore" Relationship="AccountingModel.FK_TblProducts_TblStore" FromRole="TblProduct" ToRole="TblStore" />
+    <NavigationProperty Name="TblProductsMovements" Relationship="AccountingModel.FK_TblProductsMovements_TblProducts" FromRole="TblProduct" ToRole="TblProductsMovement" />
+    <NavigationProperty Name="TblPurchases" Relationship="AccountingModel.FK_TblPurchases_TblProducts" FromRole="TblProduct" ToRole="TblPurchas" />
+    <NavigationProperty Name="TblSales" Relationship="AccountingModel.FK_TblSales_TblProducts" FromRole="TblProduct" ToRole="TblSale" />
+    <NavigationProperty Name="TblTransfers" Relationship="AccountingModel.FK_TblTransfer_TblProducts" FromRole="TblProduct" ToRole="TblTransfer" />
+  </EntityType>
+  <EntityType Name="TblProductsMovement">
+    <Key>
+      <PropertyRef Name="MoveID" />
+    </Key>
+    <Property Name="MoveID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductID" Type="Int32" />
+    <Property Name="MoveQuantity" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="TemporaryID" Type="Int32" />
+    <Property Name="MoveDate" Type="DateTime" Precision="3" />
+    <Property Name="MoveValue" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="TblProduct" Relationship="AccountingModel.FK_TblProductsMovements_TblProducts" FromRole="TblProductsMovement" ToRole="TblProduct" />
+    <NavigationProperty Name="TblTemporaryType" Relationship="AccountingModel.FK_TblProductsMovements_TblTemporaryType" FromRole="TblProductsMovement" ToRole="TblTemporaryType" />
+  </EntityType>
+  <EntityType Name="TblProductType">
+    <Key>
+      <PropertyRef Name="ProductTypeID" />
+    </Key>
+    <Property Name="ProductTypeID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProductType" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="TblProducts" Relationship="AccountingModel.FK_TblProducts_TblProductType" FromRole="TblProductType" ToRole="TblProduct" />
+    <NavigationProperty Name="TblPurchases" Relationship="AccountingModel.FK_TblPurchases_TblProductType" FromRole="TblProductType" ToRole="TblPurchas" />
+    <NavigationProperty Name="TblSales" Relationship="AccountingModel.FK_TblSales_TblProductType" FromRole="TblProductType" ToRole="TblSale" />
+  </EntityType>
+  <EntityType Name="TblProProc">
+    <Key>
+      <PropertyRef Name="ProID" />
+    </Key>
+    <Property Name="ProID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProviderID" Type="Int32" />
+    <Property Name="ProDate" Type="DateTime" Precision="3" />
+    <Property Name="ProPaied" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="PRocName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="TblProvider" Relationship="AccountingModel.FK_TblProProc_TblProviders" FromRole="TblProProc" ToRole="TblProvider" />
+  </EntityType>
+  <EntityType Name="TblProvider">
+    <Key>
+      <PropertyRef Name="ProviderID" />
+    </Key>
+    <Property Name="ProviderID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProviderName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="TelephoneNumber" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CompanyName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Credit" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Debit" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="TblBackOuts" Relationship="AccountingModel.FK_TblBackOut_TblProviders" FromRole="TblProvider" ToRole="TblBackOut" />
+    <NavigationProperty Name="TblBills" Relationship="AccountingModel.FK_TblBills_TblProviders" FromRole="TblProvider" ToRole="TblBill" />
+    <NavigationProperty Name="TblNoteBooks" Relationship="AccountingModel.FK_TblNoteBook_TblProviders" FromRole="TblProvider" ToRole="TblNoteBook" />
+    <NavigationProperty Name="TblProProcs" Relationship="AccountingModel.FK_TblProProc_TblProviders" FromRole="TblProvider" ToRole="TblProProc" />
+  </EntityType>
+  <EntityType Name="TblPurchas">
+    <Key>
+      <PropertyRef Name="purchasesID" />
+    </Key>
+    <Property Name="purchasesID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="BillID" Type="Int32" />
+    <Property Name="ProductID" Type="Int32" />
+    <Property Name="ProductTypeID" Type="Int32" />
+    <Property Name="Quantity" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="BPrice" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="BTatol" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="TblBill" Relationship="AccountingModel.FK_TblPurchases_TblBills" FromRole="TblPurchas" ToRole="TblBill" />
+    <NavigationProperty Name="TblProduct" Relationship="AccountingModel.FK_TblPurchases_TblProducts" FromRole="TblPurchas" ToRole="TblProduct" />
+    <NavigationProperty Name="TblProductType" Relationship="AccountingModel.FK_TblPurchases_TblProductType" FromRole="TblPurchas" ToRole="TblProductType" />
+  </EntityType>
+  <EntityType Name="TblRepayDebt">
+    <Key>
+      <PropertyRef Name="RepayID" />
+    </Key>
+    <Property Name="RepayID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TotalMoney" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="PaiedDate" Type="DateTime" Precision="3" />
+    <Property Name="ProviderID" Type="Int32" />
+    <Property Name="UserID" Type="Int32" />
+    <Property Name="StorageID" Type="Int32" />
+    <NavigationProperty Name="TblStorage" Relationship="AccountingModel.FK_TblRepayDebt_TblStorages" FromRole="TblRepayDebt" ToRole="TblStorage" />
+    <NavigationProperty Name="TblUser" Relationship="AccountingModel.FK_TblRepayDebt_TblUsers" FromRole="TblRepayDebt" ToRole="TblUser" />
+  </EntityType>
+  <EntityType Name="TblRepaySale">
+    <Key>
+      <PropertyRef Name="RepayBilIDl" />
+    </Key>
+    <Property Name="RepayBilIDl" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DateOfPay" Type="DateTime" Precision="3" />
+    <Property Name="CustomerID" Type="Int32" />
+    <Property Name="TotalMoneyPaied" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="UserID" Type="Int32" />
+    <Property Name="StorageID" Type="Int32" />
+    <NavigationProperty Name="TblCustomer" Relationship="AccountingModel.FK_TblRepaySales_TblCustomers" FromRole="TblRepaySale" ToRole="TblCustomer" />
+    <NavigationProperty Name="TblStorage" Relationship="AccountingModel.FK_TblRepaySales_TblStorages" FromRole="TblRepaySale" ToRole="TblStorage" />
+    <NavigationProperty Name="TblUser" Relationship="AccountingModel.FK_TblRepaySales_TblUsers" FromRole="TblRepaySale" ToRole="TblUser" />
+  </EntityType>
+  <EntityType Name="TblSaleBill">
+    <Key>
+      <PropertyRef Name="SaleBillID" />
+    </Key>
+    <Property Name="SaleBillID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="BillDate" Type="DateTime" Precision="3" />
+    <Property Name="CustomerID" Type="Int32" />
+    <Property Name="Total" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="UserID" Type="Int32" />
+    <Property Name="Paid" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Earn" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Discount" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="StoreID" Type="Int32" />
+    <NavigationProperty Name="TblCustomer" Relationship="AccountingModel.FK_TblSaleBills_TblCustomers" FromRole="TblSaleBill" ToRole="TblCustomer" />
+    <NavigationProperty Name="TblStore" Relationship="AccountingModel.FK_TblSaleBills_TblStore" FromRole="TblSaleBill" ToRole="TblStore" />
+    <NavigationProperty Name="TblUser" Relationship="AccountingModel.FK_TblSaleBills_TblUsers" FromRole="TblSaleBill" ToRole="TblUser" />
+    <NavigationProperty Name="TblSales" Relationship="AccountingModel.FK_TblSales_TblSaleBills" FromRole="TblSaleBill" ToRole="TblSale" />
+  </EntityType>
+  <EntityType Name="TblSale">
+    <Key>
+      <PropertyRef Name="ProcedureID" />
+    </Key>
+    <Property Name="ProcedureID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SaleBillID" Type="Int32" />
+    <Property Name="ProductID" Type="Int32" />
+    <Property Name="ProductTypeID" Type="Int32" />
+    <Property Name="Quantity" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Price" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="BTotal" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SNotes" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="TblProduct" Relationship="AccountingModel.FK_TblSales_TblProducts" FromRole="TblSale" ToRole="TblProduct" />
+    <NavigationProperty Name="TblProductType" Relationship="AccountingModel.FK_TblSales_TblProductType" FromRole="TblSale" ToRole="TblProductType" />
+    <NavigationProperty Name="TblSaleBill" Relationship="AccountingModel.FK_TblSales_TblSaleBills" FromRole="TblSale" ToRole="TblSaleBill" />
+  </EntityType>
+  <EntityType Name="TblStorageAction">
+    <Key>
+      <PropertyRef Name="SActionID" />
+    </Key>
+    <Property Name="SActionID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SActionName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="TblStorageProces" Relationship="AccountingModel.FK_TblStorageProces_TblStorageActions" FromRole="TblStorageAction" ToRole="TblStorageProce" />
+  </EntityType>
+  <EntityType Name="TblStorageProce">
+    <Key>
+      <PropertyRef Name="SProcID" />
+    </Key>
+    <Property Name="SProcID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SActionID" Type="Int32" />
+    <Property Name="SPDate" Type="DateTime" Precision="3" />
+    <Property Name="SPMoney" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="StorageID" Type="Int32" />
+    <NavigationProperty Name="TblStorageAction" Relationship="AccountingModel.FK_TblStorageProces_TblStorageActions" FromRole="TblStorageProce" ToRole="TblStorageAction" />
+    <NavigationProperty Name="TblStorage" Relationship="AccountingModel.FK_TblStorageProces_TblStorages" FromRole="TblStorageProce" ToRole="TblStorage" />
+  </EntityType>
+  <EntityType Name="TblStorage">
+    <Key>
+      <PropertyRef Name="StorageID" />
+    </Key>
+    <Property Name="StorageID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="StorageName" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="TotalMoney" Type="String" MaxLength="350" FixedLength="false" Unicode="true" />
+    <Property Name="StoreID" Type="Int32" />
+    <NavigationProperty Name="TblExpenses" Relationship="AccountingModel.FK_TblExpenses_TblStorages" FromRole="TblStorage" ToRole="TblExpens" />
+    <NavigationProperty Name="TblIncomes" Relationship="AccountingModel.FK_TblIncome_TblStorages" FromRole="TblStorage" ToRole="TblIncome" />
+    <NavigationProperty Name="TblProcedures" Relationship="AccountingModel.FK_TblProcedure_TblStorages" FromRole="TblStorage" ToRole="TblProcedure" />
+    <NavigationProperty Name="TblRepayDebts" Relationship="AccountingModel.FK_TblRepayDebt_TblStorages" FromRole="TblStorage" ToRole="TblRepayDebt" />
+    <NavigationProperty Name="TblRepaySales" Relationship="AccountingModel.FK_TblRepaySales_TblStorages" FromRole="TblStorage" ToRole="TblRepaySale" />
+    <NavigationProperty Name="TblStorageProces" Relationship="AccountingModel.FK_TblStorageProces_TblStorages" FromRole="TblStorage" ToRole="TblStorageProce" />
+    <NavigationProperty Name="TblStore" Relationship="AccountingModel.FK_TblStorages_TblStore" FromRole="TblStorage" ToRole="TblStore" />
+  </EntityType>
+  <EntityType Name="TblStore">
+    <Key>
+      <PropertyRef Name="StoreID" />
+    </Key>
+    <Property Name="StoreID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="StoreName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="TblBackIns" Relationship="AccountingModel.FK_TblBackIn_TblStore" FromRole="TblStore" ToRole="TblBackIn" />
+    <NavigationProperty Name="TblBackOuts" Relationship="AccountingModel.FK_TblBackOut_TblStore" FromRole="TblStore" ToRole="TblBackOut" />
+    <NavigationProperty Name="TblBills" Relationship="AccountingModel.FK_TblBills_TblStore" FromRole="TblStore" ToRole="TblBill" />
+    <NavigationProperty Name="TblCorrupteds" Relationship="AccountingModel.FK_TblCorrupted_TblStore" FromRole="TblStore" ToRole="TblCorrupted" />
+    <NavigationProperty Name="TblProducts" Relationship="AccountingModel.FK_TblProducts_TblStore" FromRole="TblStore" ToRole="TblProduct" />
+    <NavigationProperty Name="TblSaleBills" Relationship="AccountingModel.FK_TblSaleBills_TblStore" FromRole="TblStore" ToRole="TblSaleBill" />
+    <NavigationProperty Name="TblStorages" Relationship="AccountingModel.FK_TblStorages_TblStore" FromRole="TblStore" ToRole="TblStorage" />
+    <NavigationProperty Name="TblTransferBills" Relationship="AccountingModel.FK_TblTransferBill_TblStore" FromRole="TblStore" ToRole="TblTransferBill" />
+  </EntityType>
+  <EntityType Name="TblTemp">
+    <Key>
+      <PropertyRef Name="TempID" />
+    </Key>
+    <Property Name="TempID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TypeName" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="ProductName" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Price" Type="Double" />
+    <Property Name="Quntity" Type="Double" />
+    <Property Name="Total" Type="Double" />
+    <Property Name="SalePrice1" Type="Double" />
+    <Property Name="SalePrice2" Type="Double" />
+    <Property Name="Minimum" Type="Double" />
+    <Property Name="Notes" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Barcode" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="Isunit" Type="Boolean" />
+    <Property Name="UnitId" Type="Int32" />
+    <Property Name="TempType" Type="Int32" />
+    <Property Name="UserID" Type="Int32" />
+    <Property Name="Earn" Type="Double" />
+    <Property Name="Exsit" Type="Double" />
+    <Property Name="ProductId" Type="Int64" />
+    <Property Name="ProducttypeID" Type="Int64" />
+    <NavigationProperty Name="TblUser" Relationship="AccountingModel.FK_TblTemp_TblUsers" FromRole="TblTemp" ToRole="TblUser" />
+  </EntityType>
+  <EntityType Name="TblTemporary">
+    <Key>
+      <PropertyRef Name="TempID" />
+    </Key>
+    <Property Name="TempID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TProType" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="TproName" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="TPrice" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="TQuantity" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="TTotal" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="TSPrise1" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="TSPrice" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="TID" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="TemporaryID" Type="Int32" />
+    <Property Name="TExsist" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="SNote" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SEarn" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="TblTemporaryType" Relationship="AccountingModel.FK_TblTemporary_TblTemporaryType" FromRole="TblTemporary" ToRole="TblTemporaryType" />
+  </EntityType>
+  <EntityType Name="TblTemporaryType">
+    <Key>
+      <PropertyRef Name="TemporaryID" />
+    </Key>
+    <Property Name="TemporaryID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TemporaryType" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="TblProductsMovements" Relationship="AccountingModel.FK_TblProductsMovements_TblTemporaryType" FromRole="TblTemporaryType" ToRole="TblProductsMovement" />
+    <NavigationProperty Name="TblTemporaries" Relationship="AccountingModel.FK_TblTemporary_TblTemporaryType" FromRole="TblTemporaryType" ToRole="TblTemporary" />
+  </EntityType>
+  <EntityType Name="TblTransfer">
+    <Key>
+      <PropertyRef Name="TransferID" />
+    </Key>
+    <Property Name="TransferID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TransferBillID" Type="Int32" />
+    <Property Name="ProductID" Type="Int32" />
+    <Property Name="TransQuantity" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="TblProduct" Relationship="AccountingModel.FK_TblTransfer_TblProducts" FromRole="TblTransfer" ToRole="TblProduct" />
+    <NavigationProperty Name="TblTransferBill" Relationship="AccountingModel.FK_TblTransfer_TblTransferBill" FromRole="TblTransfer" ToRole="TblTransferBill" />
+  </EntityType>
+  <EntityType Name="TblTransferBill">
+    <Key>
+      <PropertyRef Name="TransferBillID" />
+    </Key>
+    <Property Name="TransferBillID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TransferDate" Type="DateTime" Precision="3" />
+    <Property Name="UserID" Type="Int32" />
+    <Property Name="StoreID" Type="Int32" />
+    <Property Name="StoreTo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="TblStore" Relationship="AccountingModel.FK_TblTransferBill_TblStore" FromRole="TblTransferBill" ToRole="TblStore" />
+    <NavigationProperty Name="TblTransfers" Relationship="AccountingModel.FK_TblTransfer_TblTransferBill" FromRole="TblTransferBill" ToRole="TblTransfer" />
+    <NavigationProperty Name="TblUser" Relationship="AccountingModel.FK_TblTransferBill_TblUsers" FromRole="TblTransferBill" ToRole="TblUser" />
+  </EntityType>
+  <EntityType Name="TblUnit">
+    <Key>
+      <PropertyRef Name="UnitID" />
+    </Key>
+    <Property Name="UnitID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UnitName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SmallUnitID" Type="Int32" />
+    <Property Name="Small_Unit_number" Type="Double" />
+    <Property Name="ISSmall" Type="Boolean" />
+    <NavigationProperty Name="TblUnits1" Relationship="AccountingModel.FK_TblUnits_TblUnits" FromRole="TblUnit" ToRole="TblUnit1" />
+    <NavigationProperty Name="TblUnit1" Relationship="AccountingModel.FK_TblUnits_TblUnits" FromRole="TblUnit1" ToRole="TblUnit" />
+  </EntityType>
+  <EntityType Name="TblUser">
+    <Key>
+      <PropertyRef Name="UserID" />
+    </Key>
+    <Property Name="UserID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="UserName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="TelephoneNumber" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="PositionID" Type="Int32" />
+    <NavigationProperty Name="TblBackIns" Relationship="AccountingModel.FK_TblBackIn_TblUsers" FromRole="TblUser" ToRole="TblBackIn" />
+    <NavigationProperty Name="TblBackOuts" Relationship="AccountingModel.FK_TblBackOut_TblUsers" FromRole="TblUser" ToRole="TblBackOut" />
+    <NavigationProperty Name="TblBills" Relationship="AccountingModel.FK_TblBills_TblUsers" FromRole="TblUser" ToRole="TblBill" />
+    <NavigationProperty Name="TblBills1" Relationship="AccountingModel.FK_TblBills_TblUsers1" FromRole="TblUser" ToRole="TblBill" />
+    <NavigationProperty Name="TblCorrupteds" Relationship="AccountingModel.FK_TblCorrupted_TblUsers" FromRole="TblUser" ToRole="TblCorrupted" />
+    <NavigationProperty Name="TblExpenses" Relationship="AccountingModel.FK_TblExpenses_TblUsers" FromRole="TblUser" ToRole="TblExpens" />
+    <NavigationProperty Name="TblIncomes" Relationship="AccountingModel.FK_TblIncome_TblUsers" FromRole="TblUser" ToRole="TblIncome" />
+    <NavigationProperty Name="TblLogs" Relationship="AccountingModel.FK_TblLogs_TblUsers" FromRole="TblUser" ToRole="TblLog" />
+    <NavigationProperty Name="TblPosition" Relationship="AccountingModel.FK_TblUsers_TblPosition" FromRole="TblUser" ToRole="TblPosition" />
+    <NavigationProperty Name="TblProcedures" Relationship="AccountingModel.FK_TblProcedure_TblUsers" FromRole="TblUser" ToRole="TblProcedure" />
+    <NavigationProperty Name="TblRepayDebts" Relationship="AccountingModel.FK_TblRepayDebt_TblUsers" FromRole="TblUser" ToRole="TblRepayDebt" />
+    <NavigationProperty Name="TblRepaySales" Relationship="AccountingModel.FK_TblRepaySales_TblUsers" FromRole="TblUser" ToRole="TblRepaySale" />
+    <NavigationProperty Name="TblSaleBills" Relationship="AccountingModel.FK_TblSaleBills_TblUsers" FromRole="TblUser" ToRole="TblSaleBill" />
+    <NavigationProperty Name="TblTemps" Relationship="AccountingModel.FK_TblTemp_TblUsers" FromRole="TblUser" ToRole="TblTemp" />
+    <NavigationProperty Name="TblTransferBills" Relationship="AccountingModel.FK_TblTransferBill_TblUsers" FromRole="TblUser" ToRole="TblTransferBill" />
+  </EntityType>
+  <EntityType Name="TblWeek">
+    <Key>
+      <PropertyRef Name="WeekDayID" />
+    </Key>
+    <Property Name="WeekDayID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="WeekDayN" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="TblNoteBooks" Relationship="AccountingModel.FK_TblNoteBook_TblWeek" FromRole="TblWeek" ToRole="TblNoteBook" />
+  </EntityType>
+  <Association Name="FK_TblBackIn_TblStore">
+    <End Type="AccountingModel.TblStore" Role="TblStore" Multiplicity="0..1" />
+    <End Type="AccountingModel.TblBackIn" Role="TblBackIn" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TblStore">
+        <PropertyRef Name="StoreID" />
+      </Principal>
+      <Dependent Role="TblBackIn">
+        <PropertyRef Name="StoreID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TblBackIn_TblUsers">
+    <End Type="AccountingModel.TblUser" Role="TblUser" Multiplicity="0..1" />
+    <End Type="AccountingModel.TblBackIn" Role="TblBackIn" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TblUser">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="TblBackIn">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TblBackInBill_TblBackIn">
+    <End Type="AccountingModel.TblBackIn" Role="TblBackIn" Multiplicity="0..1" />
+    <End Type="AccountingModel.TblBackInBill" Role="TblBackInBill" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TblBackIn">
+        <PropertyRef Name="BackInID" />
+      </Principal>
+      <Dependent Role="TblBackInBill">
+        <PropertyRef Name="BackInID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TblBackInBill_TblProducts">
+    <End Type="AccountingModel.TblProduct" Role="TblProduct" Multiplicity="0..1" />
+    <End Type="AccountingModel.TblBackInBill" Role="TblBackInBill" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TblProduct">
+        <PropertyRef Name="ProductID" />
+      </Principal>
+      <Dependent Role="TblBackInBill">
+        <PropertyRef Name="ProductID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TblBackOut_TblProviders">
+    <End Type="AccountingModel.TblProvider" Role="TblProvider" Multiplicity="0..1" />
+    <End Type="AccountingModel.TblBackOut" Role="TblBackOut" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TblProvider">
+        <PropertyRef Name="ProviderID" />
+      </Principal>
+      <Dependent Role="TblBackOut">
+        <PropertyRef Name="ProviderID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TblBackOut_TblStore">
+    <End Type="AccountingModel.TblStore" Role="TblStore" Multiplicity="0..1" />
+    <End Type="AccountingModel.TblBackOut" Role="TblBackOut" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TblStore">
+        <PropertyRef Name="StoreID" />
+      </Principal>
+      <Dependent Role="TblBackOut">
+        <PropertyRef Name="StoreID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TblBackOut_TblUsers">
+    <End Type="AccountingModel.TblUser" Role="TblUser" Multiplicity="0..1" />
+    <End Type="AccountingModel.TblBackOut" Role="TblBackOut" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TblUser">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="TblBackOut">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TblBackOutBills_TblBackOut">
+    <End Type="AccountingModel.TblBackOut" Role="TblBackOut" Multiplicity="0..1" />
+    <End Type="AccountingModel.TblBackOutBill" Role="TblBackOutBill" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TblBackOut">
+        <PropertyRef Name="BackoutID" />
+      </Principal>
+      <Dependent Role="TblBackOutBill">
+        <PropertyRef Name="BackoutID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TblBackOutBills_TblProducts">
+    <End Type="AccountingModel.TblProduct" Role="TblProduct" Multiplicity="0..1" />
+    <End Type="AccountingModel.TblBackOutBill" Role="TblBackOutBill" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TblProduct">
+        <PropertyRef Name="ProductID" />
+      </Principal>
+      <Dependent Role="TblBackOutBill">
+        <PropertyRef Name="ProductID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TblBills_TblProviders">
+    <End Type="AccountingModel.TblProvider" Role="TblProvider" Multiplicity="0..1" />
+    <End Type="AccountingModel.TblBill" Role="TblBill" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TblProvider">
+        <PropertyRef Name="ProviderID" />
+      </Principal>
+      <Dependent Role="TblBill">
+        <PropertyRef Name="ProviderID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TblBills_TblStore">
+    <End Type="AccountingModel.TblStore" Role="TblStore" Multiplicity="0..1" />
+    <End Type="AccountingModel.TblBill" Role="TblBill" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TblStore">
+        <PropertyRef Name="StoreID" />
+      </Principal>
+      <Dependent Role="TblBill">
+        <PropertyRef Name="StoreID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TblBills_TblUsers">
+    <End Type="AccountingModel.TblUser" Role="TblUser" Multiplicity="0..1" />
+    <End Type="AccountingModel.TblBill" Role="TblBill" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TblUser">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="TblBill">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TblBills_TblUsers1">
+    <End Type="AccountingModel.TblUser" Role="TblUser" Multiplicity="0..1" />
+    <End Type="AccountingModel.TblBill" Role="TblBill" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TblUser">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="TblBill">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TblProducts_TblBills">
+    <End Type="AccountingModel.TblBill" Role="TblBill" Multiplicity="0..1" />
+    <End Type="AccountingModel.TblProduct" Role="TblProduct" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TblBill">
+        <PropertyRef Name="BillID" />
+      </Principal>
+      <Dependent Role="TblProduct">
+        <PropertyRef Name="BillID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TblProducts_TblBills1">
+    <End Type="AccountingModel.TblBill" Role="TblBill" Multiplicity="0..1" />
+    <End Type="AccountingModel.TblProduct" Role="TblProduct" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TblBill">
+        <PropertyRef Name="BillID" />
+      </Principal>
+      <Dependent Role="TblProduct">
+        <PropertyRef Name="BillID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TblPurchases_TblBills">
+    <End Type="AccountingModel.TblBill" Role="TblBill" Multiplicity="0..1" />
+    <End Type="AccountingModel.TblPurchas" Role="TblPurchas" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TblBill">
+        <PropertyRef Name="BillID" />
+      </Principal>
+      <Dependent Role="TblPurchas">
+        <PropertyRef Name="BillID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TblCorrupted_TblStore">
+    <End Type="AccountingModel.TblStore" Role="TblStore" Multiplicity="0..1" />
+    <End Type="AccountingModel.TblCorrupted" Role="TblCorrupted" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TblStore">
+        <PropertyRef Name="StoreID" />
+      </Principal>
+      <Dependent Role="TblCorrupted">
+        <PropertyRef Name="StoreID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TblCorrupted_TblUsers">
+    <End Type="AccountingModel.TblUser" Role="TblUser" Multiplicity="0..1" />
+    <End Type="AccountingModel.TblCorrupted" Role="TblCorrupted" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TblUser">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="TblCorrupted">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TblCorruptedBills_TblCorrupted">
+    <End Type="AccountingModel.TblCorrupted" Role="TblCorrupted" Multiplicity="0..1" />
+    <End Type="AccountingModel.TblCorruptedBill" Role="TblCorruptedBill" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TblCorrupted">
+        <PropertyRef Name="CorruptedID" />
+      </Principal>
+      <Dependent Role="TblCorruptedBill">
+        <PropertyRef Name="CorruptedID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TblCorruptedBills_TblProducts">
+    <End Type="AccountingModel.TblProduct" Role="TblProduct" Multiplicity="0..1" />
+    <End Type="AccountingModel.TblCorruptedBill" Role="TblCorruptedBill" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TblProduct">
+        <PropertyRef Name="ProductID" />
+      </Principal>
+      <Dependent Role="TblCorruptedBill">
+        <PropertyRef Name="ProductID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TblCusPros_TblCustomers">
+    <End Type="AccountingModel.TblCustomer" Role="TblCustomer" Multiplicity="0..1" />
+    <End Type="AccountingModel.TblCusPro" Role="TblCusPro" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TblCustomer">
+        <PropertyRef Name="CustomerID" />
+      </Principal>
+      <Dependent Role="TblCusPro">
+        <PropertyRef Name="CustomerID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TblRepaySales_TblCustomers">
+    <End Type="AccountingModel.TblCustomer" Role="TblCustomer" Multiplicity="0..1" />
+    <End Type="AccountingModel.TblRepaySale" Role="TblRepaySale" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TblCustomer">
+        <PropertyRef Name="CustomerID" />
+      </Principal>
+      <Dependent Role="TblRepaySale">
+        <PropertyRef Name="CustomerID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TblSaleBills_TblCustomers">
+    <End Type="AccountingModel.TblCustomer" Role="TblCustomer" Multiplicity="0..1" />
+    <End Type="AccountingModel.TblSaleBill" Role="TblSaleBill" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TblCustomer">
+        <PropertyRef Name="CustomerID" />
+      </Principal>
+      <Dependent Role="TblSaleBill">
+        <PropertyRef Name="CustomerID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TblExpenses_TblStorages">
+    <End Type="AccountingModel.TblStorage" Role="TblStorage" Multiplicity="0..1" />
+    <End Type="AccountingModel.TblExpens" Role="TblExpens" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TblStorage">
+        <PropertyRef Name="StorageID" />
+      </Principal>
+      <Dependent Role="TblExpens">
+        <PropertyRef Name="StorageID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TblExpenses_TblUsers">
+    <End Type="AccountingModel.TblUser" Role="TblUser" Multiplicity="0..1" />
+    <End Type="AccountingModel.TblExpens" Role="TblExpens" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TblUser">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="TblExpens">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TblIncome_TblStorages">
+    <End Type="AccountingModel.TblStorage" Role="TblStorage" Multiplicity="0..1" />
+    <End Type="AccountingModel.TblIncome" Role="TblIncome" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TblStorage">
+        <PropertyRef Name="StorageID" />
+      </Principal>
+      <Dependent Role="TblIncome">
+        <PropertyRef Name="StorageID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TblIncome_TblUsers">
+    <End Type="AccountingModel.TblUser" Role="TblUser" Multiplicity="0..1" />
+    <End Type="AccountingModel.TblIncome" Role="TblIncome" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TblUser">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="TblIncome">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TblLogs_TblUsers">
+    <End Type="AccountingModel.TblUser" Role="TblUser" Multiplicity="0..1" />
+    <End Type="AccountingModel.TblLog" Role="TblLog" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TblUser">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="TblLog">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TblNoteBook_TblProviders">
+    <End Type="AccountingModel.TblProvider" Role="TblProvider" Multiplicity="0..1" />
+    <End Type="AccountingModel.TblNoteBook" Role="TblNoteBook" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TblProvider">
+        <PropertyRef Name="ProviderID" />
+      </Principal>
+      <Dependent Role="TblNoteBook">
+        <PropertyRef Name="ProviderID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TblNoteBook_TblWeek">
+    <End Type="AccountingModel.TblWeek" Role="TblWeek" Multiplicity="0..1" />
+    <End Type="AccountingModel.TblNoteBook" Role="TblNoteBook" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TblWeek">
+        <PropertyRef Name="WeekDayID" />
+      </Principal>
+      <Dependent Role="TblNoteBook">
+        <PropertyRef Name="WeekDayID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TblUsers_TblPosition">
+    <End Type="AccountingModel.TblPosition" Role="TblPosition" Multiplicity="0..1" />
+    <End Type="AccountingModel.TblUser" Role="TblUser" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TblPosition">
+        <PropertyRef Name="PositionID" />
+      </Principal>
+      <Dependent Role="TblUser">
+        <PropertyRef Name="PositionID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TblProcedure_TblStorages">
+    <End Type="AccountingModel.TblStorage" Role="TblStorage" Multiplicity="0..1" />
+    <End Type="AccountingModel.TblProcedure" Role="TblProcedure" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TblStorage">
+        <PropertyRef Name="StorageID" />
+      </Principal>
+      <Dependent Role="TblProcedure">
+        <PropertyRef Name="StorageID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TblProcedure_TblUsers">
+    <End Type="AccountingModel.TblUser" Role="TblUser" Multiplicity="0..1" />
+    <End Type="AccountingModel.TblProcedure" Role="TblProcedure" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TblUser">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="TblProcedure">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TblProducts_TblProductType">
+    <End Type="AccountingModel.TblProductType" Role="TblProductType" Multiplicity="0..1" />
+    <End Type="AccountingModel.TblProduct" Role="TblProduct" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TblProductType">
+        <PropertyRef Name="ProductTypeID" />
+      </Principal>
+      <Dependent Role="TblProduct">
+        <PropertyRef Name="ProductTypeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TblProducts_TblStore">
+    <End Type="AccountingModel.TblStore" Role="TblStore" Multiplicity="0..1" />
+    <End Type="AccountingModel.TblProduct" Role="TblProduct" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TblStore">
+        <PropertyRef Name="StoreID" />
+      </Principal>
+      <Dependent Role="TblProduct">
+        <PropertyRef Name="StoreID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TblProductsMovements_TblProducts">
+    <End Type="AccountingModel.TblProduct" Role="TblProduct" Multiplicity="0..1" />
+    <End Type="AccountingModel.TblProductsMovement" Role="TblProductsMovement" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TblProduct">
+        <PropertyRef Name="ProductID" />
+      </Principal>
+      <Dependent Role="TblProductsMovement">
+        <PropertyRef Name="ProductID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TblPurchases_TblProducts">
+    <End Type="AccountingModel.TblProduct" Role="TblProduct" Multiplicity="0..1" />
+    <End Type="AccountingModel.TblPurchas" Role="TblPurchas" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TblProduct">
+        <PropertyRef Name="ProductID" />
+      </Principal>
+      <Dependent Role="TblPurchas">
+        <PropertyRef Name="ProductID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TblSales_TblProducts">
+    <End Type="AccountingModel.TblProduct" Role="TblProduct" Multiplicity="0..1" />
+    <End Type="AccountingModel.TblSale" Role="TblSale" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TblProduct">
+        <PropertyRef Name="ProductID" />
+      </Principal>
+      <Dependent Role="TblSale">
+        <PropertyRef Name="ProductID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TblTransfer_TblProducts">
+    <End Type="AccountingModel.TblProduct" Role="TblProduct" Multiplicity="0..1" />
+    <End Type="AccountingModel.TblTransfer" Role="TblTransfer" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TblProduct">
+        <PropertyRef Name="ProductID" />
+      </Principal>
+      <Dependent Role="TblTransfer">
+        <PropertyRef Name="ProductID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TblProductsMovements_TblTemporaryType">
+    <End Type="AccountingModel.TblTemporaryType" Role="TblTemporaryType" Multiplicity="0..1" />
+    <End Type="AccountingModel.TblProductsMovement" Role="TblProductsMovement" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TblTemporaryType">
+        <PropertyRef Name="TemporaryID" />
+      </Principal>
+      <Dependent Role="TblProductsMovement">
+        <PropertyRef Name="TemporaryID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TblPurchases_TblProductType">
+    <End Type="AccountingModel.TblProductType" Role="TblProductType" Multiplicity="0..1" />
+    <End Type="AccountingModel.TblPurchas" Role="TblPurchas" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TblProductType">
+        <PropertyRef Name="ProductTypeID" />
+      </Principal>
+      <Dependent Role="TblPurchas">
+        <PropertyRef Name="ProductTypeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TblSales_TblProductType">
+    <End Type="AccountingModel.TblProductType" Role="TblProductType" Multiplicity="0..1" />
+    <End Type="AccountingModel.TblSale" Role="TblSale" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TblProductType">
+        <PropertyRef Name="ProductTypeID" />
+      </Principal>
+      <Dependent Role="TblSale">
+        <PropertyRef Name="ProductTypeID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TblProProc_TblProviders">
+    <End Type="AccountingModel.TblProvider" Role="TblProvider" Multiplicity="0..1" />
+    <End Type="AccountingModel.TblProProc" Role="TblProProc" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TblProvider">
+        <PropertyRef Name="ProviderID" />
+      </Principal>
+      <Dependent Role="TblProProc">
+        <PropertyRef Name="ProviderID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TblRepayDebt_TblStorages">
+    <End Type="AccountingModel.TblStorage" Role="TblStorage" Multiplicity="0..1" />
+    <End Type="AccountingModel.TblRepayDebt" Role="TblRepayDebt" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TblStorage">
+        <PropertyRef Name="StorageID" />
+      </Principal>
+      <Dependent Role="TblRepayDebt">
+        <PropertyRef Name="StorageID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TblRepayDebt_TblUsers">
+    <End Type="AccountingModel.TblUser" Role="TblUser" Multiplicity="0..1" />
+    <End Type="AccountingModel.TblRepayDebt" Role="TblRepayDebt" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TblUser">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="TblRepayDebt">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TblRepaySales_TblStorages">
+    <End Type="AccountingModel.TblStorage" Role="TblStorage" Multiplicity="0..1" />
+    <End Type="AccountingModel.TblRepaySale" Role="TblRepaySale" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TblStorage">
+        <PropertyRef Name="StorageID" />
+      </Principal>
+      <Dependent Role="TblRepaySale">
+        <PropertyRef Name="StorageID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TblRepaySales_TblUsers">
+    <End Type="AccountingModel.TblUser" Role="TblUser" Multiplicity="0..1" />
+    <End Type="AccountingModel.TblRepaySale" Role="TblRepaySale" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TblUser">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="TblRepaySale">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TblSaleBills_TblStore">
+    <End Type="AccountingModel.TblStore" Role="TblStore" Multiplicity="0..1" />
+    <End Type="AccountingModel.TblSaleBill" Role="TblSaleBill" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TblStore">
+        <PropertyRef Name="StoreID" />
+      </Principal>
+      <Dependent Role="TblSaleBill">
+        <PropertyRef Name="StoreID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TblSaleBills_TblUsers">
+    <End Type="AccountingModel.TblUser" Role="TblUser" Multiplicity="0..1" />
+    <End Type="AccountingModel.TblSaleBill" Role="TblSaleBill" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TblUser">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="TblSaleBill">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TblSales_TblSaleBills">
+    <End Type="AccountingModel.TblSaleBill" Role="TblSaleBill" Multiplicity="0..1" />
+    <End Type="AccountingModel.TblSale" Role="TblSale" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TblSaleBill">
+        <PropertyRef Name="SaleBillID" />
+      </Principal>
+      <Dependent Role="TblSale">
+        <PropertyRef Name="SaleBillID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TblStorageProces_TblStorageActions">
+    <End Type="AccountingModel.TblStorageAction" Role="TblStorageAction" Multiplicity="0..1" />
+    <End Type="AccountingModel.TblStorageProce" Role="TblStorageProce" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TblStorageAction">
+        <PropertyRef Name="SActionID" />
+      </Principal>
+      <Dependent Role="TblStorageProce">
+        <PropertyRef Name="SActionID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TblStorageProces_TblStorages">
+    <End Type="AccountingModel.TblStorage" Role="TblStorage" Multiplicity="0..1" />
+    <End Type="AccountingModel.TblStorageProce" Role="TblStorageProce" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TblStorage">
+        <PropertyRef Name="StorageID" />
+      </Principal>
+      <Dependent Role="TblStorageProce">
+        <PropertyRef Name="StorageID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TblStorages_TblStore">
+    <End Type="AccountingModel.TblStore" Role="TblStore" Multiplicity="0..1" />
+    <End Type="AccountingModel.TblStorage" Role="TblStorage" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TblStore">
+        <PropertyRef Name="StoreID" />
+      </Principal>
+      <Dependent Role="TblStorage">
+        <PropertyRef Name="StoreID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TblTransferBill_TblStore">
+    <End Type="AccountingModel.TblStore" Role="TblStore" Multiplicity="0..1" />
+    <End Type="AccountingModel.TblTransferBill" Role="TblTransferBill" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TblStore">
+        <PropertyRef Name="StoreID" />
+      </Principal>
+      <Dependent Role="TblTransferBill">
+        <PropertyRef Name="StoreID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TblTemp_TblUsers">
+    <End Type="AccountingModel.TblUser" Role="TblUser" Multiplicity="0..1" />
+    <End Type="AccountingModel.TblTemp" Role="TblTemp" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TblUser">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="TblTemp">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TblTemporary_TblTemporaryType">
+    <End Type="AccountingModel.TblTemporaryType" Role="TblTemporaryType" Multiplicity="0..1" />
+    <End Type="AccountingModel.TblTemporary" Role="TblTemporary" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TblTemporaryType">
+        <PropertyRef Name="TemporaryID" />
+      </Principal>
+      <Dependent Role="TblTemporary">
+        <PropertyRef Name="TemporaryID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TblTransfer_TblTransferBill">
+    <End Type="AccountingModel.TblTransferBill" Role="TblTransferBill" Multiplicity="0..1" />
+    <End Type="AccountingModel.TblTransfer" Role="TblTransfer" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TblTransferBill">
+        <PropertyRef Name="TransferBillID" />
+      </Principal>
+      <Dependent Role="TblTransfer">
+        <PropertyRef Name="TransferBillID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TblTransferBill_TblUsers">
+    <End Type="AccountingModel.TblUser" Role="TblUser" Multiplicity="0..1" />
+    <End Type="AccountingModel.TblTransferBill" Role="TblTransferBill" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TblUser">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="TblTransferBill">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TblUnits_TblUnits">
+    <End Type="AccountingModel.TblUnit" Role="TblUnit" Multiplicity="0..1" />
+    <End Type="AccountingModel.TblUnit" Role="TblUnit1" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TblUnit">
+        <PropertyRef Name="UnitID" />
+      </Principal>
+      <Dependent Role="TblUnit1">
+        <PropertyRef Name="SmallUnitID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

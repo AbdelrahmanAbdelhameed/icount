@@ -1,0 +1,516 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="AccountingModelStoreContainer" CdmEntityContainer="AccountingEntities">
+    <FunctionImportMapping FunctionImportName="Addbackoutbill" FunctionName="AccountingModel.Store.Addbackoutbill" />
+    <FunctionImportMapping FunctionImportName="AddCorrupted" FunctionName="AccountingModel.Store.AddCorrupted" />
+    <FunctionImportMapping FunctionImportName="AddCorruptedbill" FunctionName="AccountingModel.Store.AddCorruptedbill" />
+    <FunctionImportMapping FunctionImportName="AddCusProc" FunctionName="AccountingModel.Store.AddCusProc" />
+    <FunctionImportMapping FunctionImportName="AddCustomer" FunctionName="AccountingModel.Store.AddCustomer" />
+    <FunctionImportMapping FunctionImportName="AddExpenses" FunctionName="AccountingModel.Store.AddExpenses" />
+    <FunctionImportMapping FunctionImportName="Addincome" FunctionName="AccountingModel.Store.Addincome" />
+    <FunctionImportMapping FunctionImportName="AddNewProcedure" FunctionName="AccountingModel.Store.AddNewProcedure" />
+    <FunctionImportMapping FunctionImportName="AddNewTransferItems" FunctionName="AccountingModel.Store.AddNewTransferItems" />
+    <FunctionImportMapping FunctionImportName="AddNewUser" FunctionName="AccountingModel.Store.AddNewUser" />
+    <FunctionImportMapping FunctionImportName="AddNoteToproviderPay" FunctionName="AccountingModel.Store.AddNoteToproviderPay" />
+    <FunctionImportMapping FunctionImportName="AddProMovement" FunctionName="AccountingModel.Store.AddProMovement" />
+    <FunctionImportMapping FunctionImportName="AddProProc" FunctionName="AccountingModel.Store.AddProProc" />
+    <FunctionImportMapping FunctionImportName="AddStorage" FunctionName="AccountingModel.Store.AddStorage" />
+    <FunctionImportMapping FunctionImportName="AddStorageAction" FunctionName="AccountingModel.Store.AddStorageAction" />
+    <FunctionImportMapping FunctionImportName="addTemporary" FunctionName="AccountingModel.Store.addTemporary" />
+    <FunctionImportMapping FunctionImportName="AddTransfer" FunctionName="AccountingModel.Store.AddTransfer" />
+    <FunctionImportMapping FunctionImportName="addtransferbill" FunctionName="AccountingModel.Store.addtransferbill" />
+    <FunctionImportMapping FunctionImportName="EditCustomers" FunctionName="AccountingModel.Store.EditCustomers" />
+    <FunctionImportMapping FunctionImportName="EditNoteBook" FunctionName="AccountingModel.Store.EditNoteBook" />
+    <FunctionImportMapping FunctionImportName="EditProviders" FunctionName="AccountingModel.Store.EditProviders" />
+    <FunctionImportMapping FunctionImportName="InsertBackinbill" FunctionName="AccountingModel.Store.InsertBackinbill" />
+    <FunctionImportMapping FunctionImportName="insertbackout" FunctionName="AccountingModel.Store.insertbackout" />
+    <FunctionImportMapping FunctionImportName="InsertBill" FunctionName="AccountingModel.Store.InsertBill" />
+    <FunctionImportMapping FunctionImportName="InsertBillIn" FunctionName="AccountingModel.Store.InsertBillIn" />
+    <FunctionImportMapping FunctionImportName="InsertBuyBill" FunctionName="AccountingModel.Store.InsertBuyBill" />
+    <FunctionImportMapping FunctionImportName="InsertNewItemName" FunctionName="AccountingModel.Store.InsertNewItemName" />
+    <FunctionImportMapping FunctionImportName="InsertProvier" FunctionName="AccountingModel.Store.InsertProvier" />
+    <FunctionImportMapping FunctionImportName="InsertPurchases" FunctionName="AccountingModel.Store.InsertPurchases" />
+    <FunctionImportMapping FunctionImportName="InsertRepaySales" FunctionName="AccountingModel.Store.InsertRepaySales" />
+    <FunctionImportMapping FunctionImportName="insertsale" FunctionName="AccountingModel.Store.insertsale" />
+    <FunctionImportMapping FunctionImportName="InsertSaleBill" FunctionName="AccountingModel.Store.InsertSaleBill" />
+    <FunctionImportMapping FunctionImportName="RepayForProvidier" FunctionName="AccountingModel.Store.RepayForProvidier" />
+    <FunctionImportMapping FunctionImportName="sp_alterdiagram" FunctionName="AccountingModel.Store.sp_alterdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_creatediagram" FunctionName="AccountingModel.Store.sp_creatediagram" />
+    <FunctionImportMapping FunctionImportName="sp_dropdiagram" FunctionName="AccountingModel.Store.sp_dropdiagram" />
+    <FunctionImportMapping FunctionImportName="sp_helpdiagramdefinition" FunctionName="AccountingModel.Store.sp_helpdiagramdefinition" />
+    <FunctionImportMapping FunctionImportName="sp_helpdiagrams" FunctionName="AccountingModel.Store.sp_helpdiagrams" />
+    <FunctionImportMapping FunctionImportName="sp_renamediagram" FunctionName="AccountingModel.Store.sp_renamediagram" />
+    <FunctionImportMapping FunctionImportName="sp_upgraddiagrams" FunctionName="AccountingModel.Store.sp_upgraddiagrams" />
+    <FunctionImportMapping FunctionImportName="UpdateBuyBill" FunctionName="AccountingModel.Store.UpdateBuyBill" />
+    <FunctionImportMapping FunctionImportName="Updateproductsinfo" FunctionName="AccountingModel.Store.Updateproductsinfo" />
+    <FunctionImportMapping FunctionImportName="UpdateStorage" FunctionName="AccountingModel.Store.UpdateStorage" />
+    <FunctionImportMapping FunctionImportName="UpdateTransfer" FunctionName="AccountingModel.Store.UpdateTransfer" />
+    <FunctionImportMapping FunctionImportName="UpdteUser" FunctionName="AccountingModel.Store.UpdteUser" />
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="AccountingModel.sysdiagram">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="definition" ColumnName="definition" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TblBackIns">
+      <EntityTypeMapping TypeName="AccountingModel.TblBackIn">
+        <MappingFragment StoreEntitySet="TblBackIn">
+          <ScalarProperty Name="StoreID" ColumnName="StoreID" />
+          <ScalarProperty Name="TotalPaybake" ColumnName="TotalPaybake" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="DateOfBackeIn" ColumnName="DateOfBackeIn" />
+          <ScalarProperty Name="BackInID" ColumnName="BackInID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TblBackInBills">
+      <EntityTypeMapping TypeName="AccountingModel.TblBackInBill">
+        <MappingFragment StoreEntitySet="TblBackInBill">
+          <ScalarProperty Name="InTotal" ColumnName="InTotal" />
+          <ScalarProperty Name="InPrice" ColumnName="InPrice" />
+          <ScalarProperty Name="BackProNu" ColumnName="BackProNu" />
+          <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+          <ScalarProperty Name="BackInID" ColumnName="BackInID" />
+          <ScalarProperty Name="BackInBillID" ColumnName="BackInBillID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TblBackOuts">
+      <EntityTypeMapping TypeName="AccountingModel.TblBackOut">
+        <MappingFragment StoreEntitySet="TblBackOut">
+          <ScalarProperty Name="StoreID" ColumnName="StoreID" />
+          <ScalarProperty Name="ProviderID" ColumnName="ProviderID" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="TotalMony" ColumnName="TotalMony" />
+          <ScalarProperty Name="DateOfBackout" ColumnName="DateOfBackout" />
+          <ScalarProperty Name="BackoutID" ColumnName="BackoutID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TblBackOutBills">
+      <EntityTypeMapping TypeName="AccountingModel.TblBackOutBill">
+        <MappingFragment StoreEntitySet="TblBackOutBills">
+          <ScalarProperty Name="OutTotal" ColumnName="OutTotal" />
+          <ScalarProperty Name="OutPrice" ColumnName="OutPrice" />
+          <ScalarProperty Name="OutProdNum" ColumnName="OutProdNum" />
+          <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+          <ScalarProperty Name="BackoutID" ColumnName="BackoutID" />
+          <ScalarProperty Name="BackOutBillID" ColumnName="BackOutBillID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TblBills">
+      <EntityTypeMapping TypeName="AccountingModel.TblBill">
+        <MappingFragment StoreEntitySet="TblBills">
+          <ScalarProperty Name="StoreID" ColumnName="StoreID" />
+          <ScalarProperty Name="Paid" ColumnName="Paid" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="TotalPaid" ColumnName="TotalPaid" />
+          <ScalarProperty Name="ProviderID" ColumnName="ProviderID" />
+          <ScalarProperty Name="DateOfBill" ColumnName="DateOfBill" />
+          <ScalarProperty Name="BillID" ColumnName="BillID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TblCorrupteds">
+      <EntityTypeMapping TypeName="AccountingModel.TblCorrupted">
+        <MappingFragment StoreEntitySet="TblCorrupted">
+          <ScalarProperty Name="StoreID" ColumnName="StoreID" />
+          <ScalarProperty Name="CorruptedLost" ColumnName="CorruptedLost" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="DateOfbill" ColumnName="DateOfbill" />
+          <ScalarProperty Name="CorruptedID" ColumnName="CorruptedID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TblCorruptedBills">
+      <EntityTypeMapping TypeName="AccountingModel.TblCorruptedBill">
+        <MappingFragment StoreEntitySet="TblCorruptedBills">
+          <ScalarProperty Name="CoMoney" ColumnName="CoMoney" />
+          <ScalarProperty Name="CorruptedNum" ColumnName="CorruptedNum" />
+          <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+          <ScalarProperty Name="CorruptedID" ColumnName="CorruptedID" />
+          <ScalarProperty Name="CorruptedBillID" ColumnName="CorruptedBillID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TblCusPros">
+      <EntityTypeMapping TypeName="AccountingModel.TblCusPro">
+        <MappingFragment StoreEntitySet="TblCusPros">
+          <ScalarProperty Name="ProcName" ColumnName="ProcName" />
+          <ScalarProperty Name="PayedValue" ColumnName="PayedValue" />
+          <ScalarProperty Name="DateOfProc" ColumnName="DateOfProc" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="ReporttID" ColumnName="ReporttID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TblCustomers">
+      <EntityTypeMapping TypeName="AccountingModel.TblCustomer">
+        <MappingFragment StoreEntitySet="TblCustomers">
+          <ScalarProperty Name="Debit" ColumnName="Debit" />
+          <ScalarProperty Name="Credit" ColumnName="Credit" />
+          <ScalarProperty Name="CustomerCompany" ColumnName="CustomerCompany" />
+          <ScalarProperty Name="CustomerPhone" ColumnName="CustomerPhone" />
+          <ScalarProperty Name="CustomerName" ColumnName="CustomerName" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TblEmployesses">
+      <EntityTypeMapping TypeName="AccountingModel.TblEmployess">
+        <MappingFragment StoreEntitySet="TblEmployess">
+          <ScalarProperty Name="ISActive" ColumnName="ISActive" />
+          <ScalarProperty Name="Credit" ColumnName="Credit" />
+          <ScalarProperty Name="Debit" ColumnName="Debit" />
+          <ScalarProperty Name="Salary" ColumnName="Salary" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TblExpenses">
+      <EntityTypeMapping TypeName="AccountingModel.TblExpens">
+        <MappingFragment StoreEntitySet="TblExpenses">
+          <ScalarProperty Name="StorageID" ColumnName="StorageID" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="Money" ColumnName="Money" />
+          <ScalarProperty Name="ExpensesReason" ColumnName="ExpensesReason" />
+          <ScalarProperty Name="ExpensesDate" ColumnName="ExpensesDate" />
+          <ScalarProperty Name="ExpensesID" ColumnName="ExpensesID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TblIncomes">
+      <EntityTypeMapping TypeName="AccountingModel.TblIncome">
+        <MappingFragment StoreEntitySet="TblIncome">
+          <ScalarProperty Name="StorageID" ColumnName="StorageID" />
+          <ScalarProperty Name="IncomeResourc" ColumnName="IncomeResourc" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="IncomeDate" ColumnName="IncomeDate" />
+          <ScalarProperty Name="IncomeValue" ColumnName="IncomeValue" />
+          <ScalarProperty Name="IncomeID" ColumnName="IncomeID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TblLogs">
+      <EntityTypeMapping TypeName="AccountingModel.TblLog">
+        <MappingFragment StoreEntitySet="TblLogs">
+          <ScalarProperty Name="DateOfLog" ColumnName="DateOfLog" />
+          <ScalarProperty Name="Discription" ColumnName="Discription" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="LogID" ColumnName="LogID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TblNoteBooks">
+      <EntityTypeMapping TypeName="AccountingModel.TblNoteBook">
+        <MappingFragment StoreEntitySet="TblNoteBook">
+          <ScalarProperty Name="NoteMoney" ColumnName="NoteMoney" />
+          <ScalarProperty Name="ProviderID" ColumnName="ProviderID" />
+          <ScalarProperty Name="WeekDayID" ColumnName="WeekDayID" />
+          <ScalarProperty Name="NoteID" ColumnName="NoteID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TblPositions">
+      <EntityTypeMapping TypeName="AccountingModel.TblPosition">
+        <MappingFragment StoreEntitySet="TblPosition">
+          <ScalarProperty Name="PositionName" ColumnName="PositionName" />
+          <ScalarProperty Name="PositionID" ColumnName="PositionID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TblProcedures">
+      <EntityTypeMapping TypeName="AccountingModel.TblProcedure">
+        <MappingFragment StoreEntitySet="TblProcedure">
+          <ScalarProperty Name="StorageID" ColumnName="StorageID" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="ProcedureDate" ColumnName="ProcedureDate" />
+          <ScalarProperty Name="ProcedureValue" ColumnName="ProcedureValue" />
+          <ScalarProperty Name="ProcedureName" ColumnName="ProcedureName" />
+          <ScalarProperty Name="ProcedureID" ColumnName="ProcedureID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TblProducts">
+      <EntityTypeMapping TypeName="AccountingModel.TblProduct">
+        <MappingFragment StoreEntitySet="TblProducts">
+          <ScalarProperty Name="UnitID" ColumnName="UnitID" />
+          <ScalarProperty Name="BigUnitBarcode" ColumnName="BigUnitBarcode" />
+          <ScalarProperty Name="Serial" ColumnName="Serial" />
+          <ScalarProperty Name="QuntAll" ColumnName="QuntAll" />
+          <ScalarProperty Name="ISUnit" ColumnName="ISUnit" />
+          <ScalarProperty Name="Minimum" ColumnName="Minimum" />
+          <ScalarProperty Name="BillID" ColumnName="BillID" />
+          <ScalarProperty Name="Barcode" ColumnName="Barcode" />
+          <ScalarProperty Name="Exist" ColumnName="Exist" />
+          <ScalarProperty Name="SalePrice2" ColumnName="SalePrice2" />
+          <ScalarProperty Name="SalePrice1" ColumnName="SalePrice1" />
+          <ScalarProperty Name="StoreID" ColumnName="StoreID" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="ProductTypeID" ColumnName="ProductTypeID" />
+          <ScalarProperty Name="ProductName" ColumnName="ProductName" />
+          <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TblProductsMovements">
+      <EntityTypeMapping TypeName="AccountingModel.TblProductsMovement">
+        <MappingFragment StoreEntitySet="TblProductsMovements">
+          <ScalarProperty Name="MoveValue" ColumnName="MoveValue" />
+          <ScalarProperty Name="MoveDate" ColumnName="MoveDate" />
+          <ScalarProperty Name="TemporaryID" ColumnName="TemporaryID" />
+          <ScalarProperty Name="MoveQuantity" ColumnName="MoveQuantity" />
+          <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+          <ScalarProperty Name="MoveID" ColumnName="MoveID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TblProductTypes">
+      <EntityTypeMapping TypeName="AccountingModel.TblProductType">
+        <MappingFragment StoreEntitySet="TblProductType">
+          <ScalarProperty Name="ProductType" ColumnName="ProductType" />
+          <ScalarProperty Name="ProductTypeID" ColumnName="ProductTypeID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TblProProcs">
+      <EntityTypeMapping TypeName="AccountingModel.TblProProc">
+        <MappingFragment StoreEntitySet="TblProProc">
+          <ScalarProperty Name="PRocName" ColumnName="PRocName" />
+          <ScalarProperty Name="ProPaied" ColumnName="ProPaied" />
+          <ScalarProperty Name="ProDate" ColumnName="ProDate" />
+          <ScalarProperty Name="ProviderID" ColumnName="ProviderID" />
+          <ScalarProperty Name="ProID" ColumnName="ProID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TblProviders">
+      <EntityTypeMapping TypeName="AccountingModel.TblProvider">
+        <MappingFragment StoreEntitySet="TblProviders">
+          <ScalarProperty Name="Debit" ColumnName="Debit" />
+          <ScalarProperty Name="Credit" ColumnName="Credit" />
+          <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+          <ScalarProperty Name="TelephoneNumber" ColumnName="TelephoneNumber" />
+          <ScalarProperty Name="ProviderName" ColumnName="ProviderName" />
+          <ScalarProperty Name="ProviderID" ColumnName="ProviderID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TblPurchases">
+      <EntityTypeMapping TypeName="AccountingModel.TblPurchas">
+        <MappingFragment StoreEntitySet="TblPurchases">
+          <ScalarProperty Name="BTatol" ColumnName="BTatol" />
+          <ScalarProperty Name="BPrice" ColumnName="BPrice" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="ProductTypeID" ColumnName="ProductTypeID" />
+          <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+          <ScalarProperty Name="BillID" ColumnName="BillID" />
+          <ScalarProperty Name="purchasesID" ColumnName="purchasesID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TblRepayDebts">
+      <EntityTypeMapping TypeName="AccountingModel.TblRepayDebt">
+        <MappingFragment StoreEntitySet="TblRepayDebt">
+          <ScalarProperty Name="StorageID" ColumnName="StorageID" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="ProviderID" ColumnName="ProviderID" />
+          <ScalarProperty Name="PaiedDate" ColumnName="PaiedDate" />
+          <ScalarProperty Name="TotalMoney" ColumnName="TotalMoney" />
+          <ScalarProperty Name="RepayID" ColumnName="RepayID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TblRepaySales">
+      <EntityTypeMapping TypeName="AccountingModel.TblRepaySale">
+        <MappingFragment StoreEntitySet="TblRepaySales">
+          <ScalarProperty Name="StorageID" ColumnName="StorageID" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="TotalMoneyPaied" ColumnName="TotalMoneyPaied" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="DateOfPay" ColumnName="DateOfPay" />
+          <ScalarProperty Name="RepayBilIDl" ColumnName="RepayBilIDl" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TblSaleBills">
+      <EntityTypeMapping TypeName="AccountingModel.TblSaleBill">
+        <MappingFragment StoreEntitySet="TblSaleBills">
+          <ScalarProperty Name="StoreID" ColumnName="StoreID" />
+          <ScalarProperty Name="Discount" ColumnName="Discount" />
+          <ScalarProperty Name="Earn" ColumnName="Earn" />
+          <ScalarProperty Name="Paid" ColumnName="Paid" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="Total" ColumnName="Total" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="BillDate" ColumnName="BillDate" />
+          <ScalarProperty Name="SaleBillID" ColumnName="SaleBillID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TblSales">
+      <EntityTypeMapping TypeName="AccountingModel.TblSale">
+        <MappingFragment StoreEntitySet="TblSales">
+          <ScalarProperty Name="SNotes" ColumnName="SNotes" />
+          <ScalarProperty Name="BTotal" ColumnName="BTotal" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="ProductTypeID" ColumnName="ProductTypeID" />
+          <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+          <ScalarProperty Name="SaleBillID" ColumnName="SaleBillID" />
+          <ScalarProperty Name="ProcedureID" ColumnName="ProcedureID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TblStorageActions">
+      <EntityTypeMapping TypeName="AccountingModel.TblStorageAction">
+        <MappingFragment StoreEntitySet="TblStorageActions">
+          <ScalarProperty Name="SActionName" ColumnName="SActionName" />
+          <ScalarProperty Name="SActionID" ColumnName="SActionID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TblStorageProces">
+      <EntityTypeMapping TypeName="AccountingModel.TblStorageProce">
+        <MappingFragment StoreEntitySet="TblStorageProces">
+          <ScalarProperty Name="StorageID" ColumnName="StorageID" />
+          <ScalarProperty Name="SPMoney" ColumnName="SPMoney" />
+          <ScalarProperty Name="SPDate" ColumnName="SPDate" />
+          <ScalarProperty Name="SActionID" ColumnName="SActionID" />
+          <ScalarProperty Name="SProcID" ColumnName="SProcID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TblStorages">
+      <EntityTypeMapping TypeName="AccountingModel.TblStorage">
+        <MappingFragment StoreEntitySet="TblStorages">
+          <ScalarProperty Name="StoreID" ColumnName="StoreID" />
+          <ScalarProperty Name="TotalMoney" ColumnName="TotalMoney" />
+          <ScalarProperty Name="StorageName" ColumnName="StorageName" />
+          <ScalarProperty Name="StorageID" ColumnName="StorageID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TblStores">
+      <EntityTypeMapping TypeName="AccountingModel.TblStore">
+        <MappingFragment StoreEntitySet="TblStore">
+          <ScalarProperty Name="StoreName" ColumnName="StoreName" />
+          <ScalarProperty Name="StoreID" ColumnName="StoreID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TblTemps">
+      <EntityTypeMapping TypeName="AccountingModel.TblTemp">
+        <MappingFragment StoreEntitySet="TblTemp">
+          <ScalarProperty Name="ProducttypeID" ColumnName="ProducttypeID" />
+          <ScalarProperty Name="ProductId" ColumnName="ProductId" />
+          <ScalarProperty Name="Exsit" ColumnName="Exsit" />
+          <ScalarProperty Name="Earn" ColumnName="Earn" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="TempType" ColumnName="TempType" />
+          <ScalarProperty Name="UnitId" ColumnName="UnitId" />
+          <ScalarProperty Name="Isunit" ColumnName="Isunit" />
+          <ScalarProperty Name="Barcode" ColumnName="Barcode" />
+          <ScalarProperty Name="Notes" ColumnName="Notes" />
+          <ScalarProperty Name="Minimum" ColumnName="Minimum" />
+          <ScalarProperty Name="SalePrice2" ColumnName="SalePrice2" />
+          <ScalarProperty Name="SalePrice1" ColumnName="SalePrice1" />
+          <ScalarProperty Name="Total" ColumnName="Total" />
+          <ScalarProperty Name="Quntity" ColumnName="Quntity" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="ProductName" ColumnName="ProductName" />
+          <ScalarProperty Name="TypeName" ColumnName="TypeName" />
+          <ScalarProperty Name="TempID" ColumnName="TempID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TblTemporaries">
+      <EntityTypeMapping TypeName="AccountingModel.TblTemporary">
+        <MappingFragment StoreEntitySet="TblTemporary">
+          <ScalarProperty Name="SEarn" ColumnName="SEarn" />
+          <ScalarProperty Name="SNote" ColumnName="SNote" />
+          <ScalarProperty Name="TExsist" ColumnName="TExsist" />
+          <ScalarProperty Name="TemporaryID" ColumnName="TemporaryID" />
+          <ScalarProperty Name="TID" ColumnName="TID" />
+          <ScalarProperty Name="TSPrice" ColumnName="TSPrice" />
+          <ScalarProperty Name="TSPrise1" ColumnName="TSPrise1" />
+          <ScalarProperty Name="TTotal" ColumnName="TTotal" />
+          <ScalarProperty Name="TQuantity" ColumnName="TQuantity" />
+          <ScalarProperty Name="TPrice" ColumnName="TPrice" />
+          <ScalarProperty Name="TproName" ColumnName="TproName" />
+          <ScalarProperty Name="TProType" ColumnName="TProType" />
+          <ScalarProperty Name="TempID" ColumnName="TempID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TblTemporaryTypes">
+      <EntityTypeMapping TypeName="AccountingModel.TblTemporaryType">
+        <MappingFragment StoreEntitySet="TblTemporaryType">
+          <ScalarProperty Name="TemporaryType" ColumnName="TemporaryType" />
+          <ScalarProperty Name="TemporaryID" ColumnName="TemporaryID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TblTransfers">
+      <EntityTypeMapping TypeName="AccountingModel.TblTransfer">
+        <MappingFragment StoreEntitySet="TblTransfer">
+          <ScalarProperty Name="TransQuantity" ColumnName="TransQuantity" />
+          <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+          <ScalarProperty Name="TransferBillID" ColumnName="TransferBillID" />
+          <ScalarProperty Name="TransferID" ColumnName="TransferID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TblTransferBills">
+      <EntityTypeMapping TypeName="AccountingModel.TblTransferBill">
+        <MappingFragment StoreEntitySet="TblTransferBill">
+          <ScalarProperty Name="StoreTo" ColumnName="StoreTo" />
+          <ScalarProperty Name="StoreID" ColumnName="StoreID" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="TransferDate" ColumnName="TransferDate" />
+          <ScalarProperty Name="TransferBillID" ColumnName="TransferBillID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TblUnits">
+      <EntityTypeMapping TypeName="AccountingModel.TblUnit">
+        <MappingFragment StoreEntitySet="TblUnits">
+          <ScalarProperty Name="ISSmall" ColumnName="ISSmall" />
+          <ScalarProperty Name="Small_Unit_number" ColumnName="Small_Unit_number" />
+          <ScalarProperty Name="SmallUnitID" ColumnName="SmallUnitID" />
+          <ScalarProperty Name="UnitName" ColumnName="UnitName" />
+          <ScalarProperty Name="UnitID" ColumnName="UnitID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TblUsers">
+      <EntityTypeMapping TypeName="AccountingModel.TblUser">
+        <MappingFragment StoreEntitySet="TblUsers">
+          <ScalarProperty Name="PositionID" ColumnName="PositionID" />
+          <ScalarProperty Name="TelephoneNumber" ColumnName="TelephoneNumber" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TblWeeks">
+      <EntityTypeMapping TypeName="AccountingModel.TblWeek">
+        <MappingFragment StoreEntitySet="TblWeek">
+          <ScalarProperty Name="WeekDayN" ColumnName="WeekDayN" />
+          <ScalarProperty Name="WeekDayID" ColumnName="WeekDayID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
